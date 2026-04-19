@@ -1,0 +1,9 @@
+! r2SCAN-3c TightSCF TightOpt
+
+%pal
+  nprocs 8
+end
+
+%maxcore 2000
+
+* xyzfile 0 3 ../../results/01_xtb_xyz/zigzag_chain12_d1.50_m3.xyz

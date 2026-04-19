@@ -1,0 +1,3 @@
+panel_id,kind,series_id,q,energy_mev,line_color,line_style,line_width,alpha,zorder,marker,marker_size,marker_face,marker_edge,edge_width
+panel_1,line,branch_1,0.0,2.0,#444444,-,1.0,1.0,2.0,,,,,
+panel_1,scatter,exp_1,0.1,7.0,,,,1.0,4.0,s,12,#ef4444,#ef4444,0.0

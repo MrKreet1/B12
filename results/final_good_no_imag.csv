@@ -1,0 +1,3 @@
+rank,job_name,mult,dft_energy_hartree,min_freq_cm1,status,xyz_path
+1,double_ring_6_6_d1.90_m1_r2scan,1,-297.805239027148,0.0,OK_NO_IMAG,results/02_r2scan_xyz/double_ring_6_6_d1.90_m1_r2scan.xyz
+2,ring12_d1.70_m1_r2scan,1,-297.564484568076,0.0,OK_NO_IMAG,results/02_r2scan_xyz/ring12_d1.70_m1_r2scan.xyz

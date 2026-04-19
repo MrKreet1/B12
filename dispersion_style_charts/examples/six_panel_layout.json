@@ -1,0 +1,395 @@
+{
+  "filename": "demo_six_panel.png",
+  "figsize": [
+    7.5,
+    8.6
+  ],
+  "nrows": 2,
+  "ncols": 3,
+  "wspace": 0.05,
+  "hspace": 0.1,
+  "panels": [
+    {
+      "id": "a_001",
+      "row": 0,
+      "col": 0,
+      "xlim": [
+        0.0,
+        1.0
+      ],
+      "ylim": [
+        0.0,
+        46.0
+      ],
+      "xticks": [
+        0.0,
+        0.5,
+        1.0
+      ],
+      "yticks": [
+        0,
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        35,
+        40,
+        45
+      ],
+      "ylabel": "Energy (meV)",
+      "texts": [
+        {
+          "x": 0.02,
+          "y": 1.02,
+          "text": "G",
+          "ha": "left",
+          "va": "bottom",
+          "size": 8
+        },
+        {
+          "x": 0.98,
+          "y": 1.02,
+          "text": "X",
+          "ha": "right",
+          "va": "bottom",
+          "size": 8
+        },
+        {
+          "x": 0.83,
+          "y": 0.08,
+          "text": "[001]",
+          "ha": "center",
+          "va": "bottom",
+          "size": 8
+        }
+      ]
+    },
+    {
+      "id": "a_110",
+      "row": 0,
+      "col": 1,
+      "xlim": [
+        0.0,
+        0.5
+      ],
+      "ylim": [
+        0.0,
+        46.0
+      ],
+      "xticks": [
+        0.0,
+        0.25,
+        0.5
+      ],
+      "yticks": [
+        0,
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        35,
+        40,
+        45
+      ],
+      "vlines": [
+        0.18
+      ],
+      "xlabel": "q (r.l.u)",
+      "texts": [
+        {
+          "x": 0.02,
+          "y": 1.02,
+          "text": "X",
+          "ha": "left",
+          "va": "bottom",
+          "size": 8
+        },
+        {
+          "x": 0.5,
+          "y": 1.02,
+          "text": "K/U",
+          "ha": "center",
+          "va": "bottom",
+          "size": 8
+        },
+        {
+          "x": 0.98,
+          "y": 1.02,
+          "text": "G",
+          "ha": "right",
+          "va": "bottom",
+          "size": 8
+        },
+        {
+          "x": 0.83,
+          "y": 0.08,
+          "text": "[110]",
+          "ha": "center",
+          "va": "bottom",
+          "size": 8
+        }
+      ]
+    },
+    {
+      "id": "a_111",
+      "row": 0,
+      "col": 2,
+      "xlim": [
+        0.0,
+        0.5
+      ],
+      "ylim": [
+        0.0,
+        46.0
+      ],
+      "xticks": [
+        0.0,
+        0.25,
+        0.5
+      ],
+      "yticks": [
+        0,
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        35,
+        40,
+        45
+      ],
+      "texts": [
+        {
+          "x": 0.02,
+          "y": 1.02,
+          "text": "G",
+          "ha": "left",
+          "va": "bottom",
+          "size": 8
+        },
+        {
+          "x": 0.98,
+          "y": 1.02,
+          "text": "L",
+          "ha": "right",
+          "va": "bottom",
+          "size": 8
+        },
+        {
+          "x": 0.83,
+          "y": 0.08,
+          "text": "[111]",
+          "ha": "center",
+          "va": "bottom",
+          "size": 8
+        }
+      ]
+    },
+    {
+      "id": "b_001",
+      "row": 1,
+      "col": 0,
+      "xlim": [
+        0.0,
+        1.0
+      ],
+      "ylim": [
+        0.0,
+        46.0
+      ],
+      "xticks": [
+        0.0,
+        0.5,
+        1.0
+      ],
+      "yticks": [
+        0,
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        35,
+        40,
+        45
+      ],
+      "ylabel": "Energy (meV)",
+      "texts": [
+        {
+          "x": 0.02,
+          "y": 1.02,
+          "text": "G",
+          "ha": "left",
+          "va": "bottom",
+          "size": 8
+        },
+        {
+          "x": 0.98,
+          "y": 1.02,
+          "text": "X",
+          "ha": "right",
+          "va": "bottom",
+          "size": 8
+        },
+        {
+          "x": 0.83,
+          "y": 0.08,
+          "text": "[001]",
+          "ha": "center",
+          "va": "bottom",
+          "size": 8
+        }
+      ]
+    },
+    {
+      "id": "b_110",
+      "row": 1,
+      "col": 1,
+      "xlim": [
+        0.0,
+        0.5
+      ],
+      "ylim": [
+        0.0,
+        46.0
+      ],
+      "xticks": [
+        0.0,
+        0.25,
+        0.5
+      ],
+      "yticks": [
+        0,
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        35,
+        40,
+        45
+      ],
+      "vlines": [
+        0.18
+      ],
+      "xlabel": "q (r.l.u)",
+      "texts": [
+        {
+          "x": 0.02,
+          "y": 1.02,
+          "text": "X",
+          "ha": "left",
+          "va": "bottom",
+          "size": 8
+        },
+        {
+          "x": 0.5,
+          "y": 1.02,
+          "text": "K/U",
+          "ha": "center",
+          "va": "bottom",
+          "size": 8
+        },
+        {
+          "x": 0.98,
+          "y": 1.02,
+          "text": "G",
+          "ha": "right",
+          "va": "bottom",
+          "size": 8
+        },
+        {
+          "x": 0.83,
+          "y": 0.08,
+          "text": "[110]",
+          "ha": "center",
+          "va": "bottom",
+          "size": 8
+        }
+      ]
+    },
+    {
+      "id": "b_111",
+      "row": 1,
+      "col": 2,
+      "xlim": [
+        0.0,
+        0.5
+      ],
+      "ylim": [
+        0.0,
+        46.0
+      ],
+      "xticks": [
+        0.0,
+        0.25,
+        0.5
+      ],
+      "yticks": [
+        0,
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        35,
+        40,
+        45
+      ],
+      "texts": [
+        {
+          "x": 0.02,
+          "y": 1.02,
+          "text": "G",
+          "ha": "left",
+          "va": "bottom",
+          "size": 8
+        },
+        {
+          "x": 0.98,
+          "y": 1.02,
+          "text": "L",
+          "ha": "right",
+          "va": "bottom",
+          "size": 8
+        },
+        {
+          "x": 0.83,
+          "y": 0.08,
+          "text": "[111]",
+          "ha": "center",
+          "va": "bottom",
+          "size": 8
+        }
+      ]
+    }
+  ],
+  "figure_texts": [
+    {
+      "x": 0.5,
+      "y": 0.5,
+      "text": "a",
+      "ha": "center",
+      "va": "center",
+      "style": "italic",
+      "size": 10
+    },
+    {
+      "x": 0.5,
+      "y": 0.01,
+      "text": "b",
+      "ha": "center",
+      "va": "bottom",
+      "style": "italic",
+      "size": 10
+    }
+  ]
+}

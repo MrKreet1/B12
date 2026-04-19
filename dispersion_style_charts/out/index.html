@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dispersion-style figures</title>
+  <style>
+    :root {
+      --bg: #f6f5f2;
+      --panel: #fffdf9;
+      --text: #161616;
+      --muted: #555;
+      --line: #d7d4cf;
+      --accent: #8b1e3f;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(139, 30, 63, 0.12), transparent 22%),
+        radial-gradient(circle at top right, rgba(37, 99, 235, 0.10), transparent 24%),
+        var(--bg);
+      color: var(--text);
+    }
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 28px 18px 40px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 30px;
+    }
+    p {
+      margin: 0 0 18px;
+      color: var(--muted);
+      line-height: 1.55;
+      max-width: 860px;
+    }
+    .grid {
+      display: grid;
+      gap: 18px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 16px;
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.06);
+    }
+    .card h2 {
+      margin: 0 0 8px;
+      font-size: 20px;
+    }
+    .card a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 700;
+    }
+    .card img {
+      width: 100%;
+      margin-top: 12px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: white;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Dispersion-style figure demos</h1>
+    <p>
+      These figures are demo layouts in the style of publication phonon-dispersion plots.
+      Replace the CSV values in <code>dispersion_style_charts/examples/</code> with your real q-dependent data.
+    </p>
+    <section class="grid"><section class='card'><h2>demo_triptych</h2><a href='demo_triptych.png' target='_blank' rel='noopener'>Open image</a><img src='demo_triptych.png' alt='demo_triptych'></section><section class='card'><h2>demo_six_panel</h2><a href='demo_six_panel.png' target='_blank' rel='noopener'>Open image</a><img src='demo_six_panel.png' alt='demo_six_panel'></section></section>
+  </main>
+</body>
+</html>

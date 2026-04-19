@@ -1,0 +1,4 @@
+job_name,mult,dft_energy_hartree,numfreq_energy_hartree,normal_term,n_freqs_parsed,min_freq_cm1,n_imag_strict,n_imag_significant,status,xyz_path
+double_ring_6_6_d1.90_m1_r2scan,1,-297.805239027148,-297.805239047221,True,38,0.0,0,0,OK_NO_IMAG,results/02_r2scan_xyz/double_ring_6_6_d1.90_m1_r2scan.xyz
+ring12_d1.70_m1_r2scan,1,-297.564484568076,-297.56448454649,True,38,0.0,0,0,OK_NO_IMAG,results/02_r2scan_xyz/ring12_d1.70_m1_r2scan.xyz
+zigzag_chain12_d1.50_m3_r2scan,3,-297.45168248411,-297.451682490386,True,38,-2022.99,6,5,REJECT_IMAG,results/02_r2scan_xyz/zigzag_chain12_d1.50_m3_r2scan.xyz

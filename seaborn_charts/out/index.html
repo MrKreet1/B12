@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Seaborn charts for the ORCA B12 workflow</title>
+  <style>
+    :root {
+      --bg: #f7f7f5;
+      --panel: #fffdf8;
+      --text: #18181b;
+      --muted: #52525b;
+      --line: #d6d3d1;
+      --accent: #0f766e;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(15, 118, 110, 0.12), transparent 24%),
+        radial-gradient(circle at top right, rgba(180, 83, 9, 0.12), transparent 24%),
+        var(--bg);
+    }
+    main {
+      max-width: 1380px;
+      margin: 0 auto;
+      padding: 30px 18px 42px;
+    }
+    h1 {
+      margin: 0 0 10px;
+      font-size: 34px;
+      line-height: 1.1;
+    }
+    .intro {
+      max-width: 860px;
+      color: var(--muted);
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 14px;
+      margin-bottom: 22px;
+    }
+    .metric {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 16px 18px;
+      box-shadow: 0 14px 34px rgba(24, 24, 27, 0.06);
+    }
+    .metric span {
+      display: block;
+      color: var(--muted);
+      font-size: 13px;
+      margin-bottom: 8px;
+    }
+    .metric strong {
+      font-size: 28px;
+      color: var(--accent);
+    }
+    .grid {
+      display: grid;
+      gap: 18px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      padding: 18px;
+      box-shadow: 0 16px 40px rgba(24, 24, 27, 0.08);
+    }
+    .card h2 {
+      margin: 0 0 8px;
+      font-size: 22px;
+    }
+    .card p {
+      margin: 0 0 10px;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+    .card a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 700;
+    }
+    .card img {
+      width: 100%;
+      margin-top: 12px;
+      border-radius: 16px;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+    @media (max-width: 820px) {
+      main { padding: 24px 14px 32px; }
+      h1 { font-size: 28px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Seaborn charts for the ORCA B12 workflow</h1>
+    <p class="intro">
+      This folder contains static Seaborn charts rendered from the current CSV outputs in <code>results/</code>.
+      Open any PNG directly or use this gallery as the entry point.
+    </p>
+    <section class="metrics"><div class='metric'><span>Seed geometries</span><strong>52</strong></div><div class='metric'><span>Planned xTB jobs</span><strong>104</strong></div><div class='metric'><span>Stable minima</span><strong>2</strong></div></section>
+    <section class="grid"><section class='card'><h2>xTB Landscape</h2><p>All screened xTB structures split by multiplicity and seed distance.</p><a href='01_xtb_landscape.png' target='_blank' rel='noopener'>Open image</a><img src='01_xtb_landscape.png' alt='xTB Landscape'></section><section class='card'><h2>Unique xTB Minima</h2><p>The unique xTB minima promoted to the DFT stage.</p><a href='02_xtb_unique_minima.png' target='_blank' rel='noopener'>Open image</a><img src='02_xtb_unique_minima.png' alt='Unique xTB Minima'></section><section class='card'><h2>Pipeline Summary</h2><p>Compression of the workflow from seeds to validated minima.</p><a href='03_pipeline_summary.png' target='_blank' rel='noopener'>Open image</a><img src='03_pipeline_summary.png' alt='Pipeline Summary'></section><section class='card'><h2>Final Ranking</h2><p>Final relative energies after DFT + NumFreq.</p><a href='04_final_dft_numfreq.png' target='_blank' rel='noopener'>Open image</a><img src='04_final_dft_numfreq.png' alt='Final Ranking'></section><section class='card'><h2>Frequency Diagnostics</h2><p>Minimum frequency versus relative energy for final structures.</p><a href='05_frequency_diagnostics.png' target='_blank' rel='noopener'>Open image</a><img src='05_frequency_diagnostics.png' alt='Frequency Diagnostics'></section><section class='card'><h2>xTB Status Heatmap</h2><p>How each motif family behaved during xTB screening.</p><a href='06_xtb_status_heatmap.png' target='_blank' rel='noopener'>Open image</a><img src='06_xtb_status_heatmap.png' alt='xTB Status Heatmap'></section></section>
+  </main>
+</body>
+</html>

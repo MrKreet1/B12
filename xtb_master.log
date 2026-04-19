@@ -1,0 +1,739 @@
+[2026-04-17 12:02:43] START jobs_dir=jobs/01_xtb total=104 parallel=8
+[2026-04-17 12:02:43] [RUN  1/104] jobs/01_xtb/mult_1/double_ring_6_6_d1.50_m1.inp
+[2026-04-17 12:02:43] [RUN  2/104] jobs/01_xtb/mult_1/double_ring_6_6_d1.70_m1.inp
+[2026-04-17 12:02:43] [RUN  3/104] jobs/01_xtb/mult_1/double_ring_6_6_d1.90_m1.inp
+[2026-04-17 12:02:43] [RUN  4/104] jobs/01_xtb/mult_1/double_ring_6_6_d2.10_m1.inp
+[2026-04-17 12:02:43] [RUN  5/104] jobs/01_xtb/mult_1/random_d1.50_001_m1.inp
+[2026-04-17 12:02:43] [RUN  6/104] jobs/01_xtb/mult_1/random_d1.50_002_m1.inp
+[2026-04-17 12:02:43] [RUN  7/104] jobs/01_xtb/mult_1/random_d1.50_003_m1.inp
+[2026-04-17 12:02:43] [RUN  8/104] jobs/01_xtb/mult_1/random_d1.50_004_m1.inp
+[2026-04-17 12:02:43] [FAIL 1/104] jobs/01_xtb/mult_1/double_ring_6_6_d1.50_m1.inp rc=52
+[2026-04-17 12:02:43] [FAIL 2/104] jobs/01_xtb/mult_1/double_ring_6_6_d1.70_m1.inp rc=52
+[2026-04-17 12:02:43] [FAIL 3/104] jobs/01_xtb/mult_1/double_ring_6_6_d1.90_m1.inp rc=52
+[2026-04-17 12:02:43] [FAIL 7/104] jobs/01_xtb/mult_1/random_d1.50_003_m1.inp rc=52
+[2026-04-17 12:02:43] [FAIL 4/104] jobs/01_xtb/mult_1/double_ring_6_6_d2.10_m1.inp rc=52
+[2026-04-17 12:02:43] [FAIL 6/104] jobs/01_xtb/mult_1/random_d1.50_002_m1.inp rc=52
+[2026-04-17 12:02:43] [FAIL 5/104] jobs/01_xtb/mult_1/random_d1.50_001_m1.inp rc=52
+[2026-04-17 12:02:43] [FAIL 8/104] jobs/01_xtb/mult_1/random_d1.50_004_m1.inp rc=52
+[2026-04-17 12:02:45] [RUN  9/104] jobs/01_xtb/mult_1/random_d1.50_005_m1.inp
+[2026-04-17 12:02:45] [RUN  10/104] jobs/01_xtb/mult_1/random_d1.50_006_m1.inp
+[2026-04-17 12:02:45] [RUN  11/104] jobs/01_xtb/mult_1/random_d1.50_007_m1.inp
+[2026-04-17 12:02:45] [RUN  12/104] jobs/01_xtb/mult_1/random_d1.50_008_m1.inp
+[2026-04-17 12:02:45] [RUN  13/104] jobs/01_xtb/mult_1/random_d1.50_009_m1.inp
+[2026-04-17 12:02:45] [RUN  14/104] jobs/01_xtb/mult_1/random_d1.50_010_m1.inp
+[2026-04-17 12:02:45] [RUN  15/104] jobs/01_xtb/mult_1/random_d1.70_001_m1.inp
+[2026-04-17 12:02:45] [RUN  16/104] jobs/01_xtb/mult_1/random_d1.70_002_m1.inp
+[2026-04-17 12:02:45] [FAIL 9/104] jobs/01_xtb/mult_1/random_d1.50_005_m1.inp rc=52
+[2026-04-17 12:02:45] [FAIL 10/104] jobs/01_xtb/mult_1/random_d1.50_006_m1.inp rc=52
+[2026-04-17 12:02:45] [FAIL 11/104] jobs/01_xtb/mult_1/random_d1.50_007_m1.inp rc=52
+[2026-04-17 12:02:45] [FAIL 12/104] jobs/01_xtb/mult_1/random_d1.50_008_m1.inp rc=52
+[2026-04-17 12:02:45] [FAIL 13/104] jobs/01_xtb/mult_1/random_d1.50_009_m1.inp rc=52
+[2026-04-17 12:02:45] [FAIL 14/104] jobs/01_xtb/mult_1/random_d1.50_010_m1.inp rc=52
+[2026-04-17 12:02:45] [FAIL 15/104] jobs/01_xtb/mult_1/random_d1.70_001_m1.inp rc=52
+[2026-04-17 12:02:45] [FAIL 16/104] jobs/01_xtb/mult_1/random_d1.70_002_m1.inp rc=52
+[2026-04-17 12:02:47] [RUN  17/104] jobs/01_xtb/mult_1/random_d1.70_003_m1.inp
+[2026-04-17 12:02:47] [RUN  18/104] jobs/01_xtb/mult_1/random_d1.70_004_m1.inp
+[2026-04-17 12:02:47] [RUN  19/104] jobs/01_xtb/mult_1/random_d1.70_005_m1.inp
+[2026-04-17 12:02:47] [RUN  20/104] jobs/01_xtb/mult_1/random_d1.70_006_m1.inp
+[2026-04-17 12:02:47] [RUN  21/104] jobs/01_xtb/mult_1/random_d1.70_007_m1.inp
+[2026-04-17 12:02:47] [RUN  22/104] jobs/01_xtb/mult_1/random_d1.70_008_m1.inp
+[2026-04-17 12:02:47] [RUN  23/104] jobs/01_xtb/mult_1/random_d1.70_009_m1.inp
+[2026-04-17 12:02:47] [RUN  24/104] jobs/01_xtb/mult_1/random_d1.70_010_m1.inp
+[2026-04-17 12:02:47] [FAIL 18/104] jobs/01_xtb/mult_1/random_d1.70_004_m1.inp rc=52
+[2026-04-17 12:02:47] [FAIL 17/104] jobs/01_xtb/mult_1/random_d1.70_003_m1.inp rc=52
+[2026-04-17 12:02:47] [FAIL 19/104] jobs/01_xtb/mult_1/random_d1.70_005_m1.inp rc=52
+[2026-04-17 12:02:47] [FAIL 20/104] jobs/01_xtb/mult_1/random_d1.70_006_m1.inp rc=52
+[2026-04-17 12:02:47] [FAIL 22/104] jobs/01_xtb/mult_1/random_d1.70_008_m1.inp rc=52
+[2026-04-17 12:02:47] [FAIL 21/104] jobs/01_xtb/mult_1/random_d1.70_007_m1.inp rc=52
+[2026-04-17 12:02:47] [FAIL 24/104] jobs/01_xtb/mult_1/random_d1.70_010_m1.inp rc=52
+[2026-04-17 12:02:47] [FAIL 23/104] jobs/01_xtb/mult_1/random_d1.70_009_m1.inp rc=52
+[2026-04-17 12:02:49] [RUN  25/104] jobs/01_xtb/mult_1/random_d1.90_001_m1.inp
+[2026-04-17 12:02:49] [RUN  26/104] jobs/01_xtb/mult_1/random_d1.90_002_m1.inp
+[2026-04-17 12:02:49] [RUN  27/104] jobs/01_xtb/mult_1/random_d1.90_003_m1.inp
+[2026-04-17 12:02:49] [RUN  28/104] jobs/01_xtb/mult_1/random_d1.90_004_m1.inp
+[2026-04-17 12:02:49] [RUN  29/104] jobs/01_xtb/mult_1/random_d1.90_005_m1.inp
+[2026-04-17 12:02:49] [RUN  30/104] jobs/01_xtb/mult_1/random_d1.90_006_m1.inp
+[2026-04-17 12:02:49] [RUN  31/104] jobs/01_xtb/mult_1/random_d1.90_007_m1.inp
+[2026-04-17 12:02:49] [RUN  32/104] jobs/01_xtb/mult_1/random_d1.90_008_m1.inp
+[2026-04-17 12:02:49] [FAIL 25/104] jobs/01_xtb/mult_1/random_d1.90_001_m1.inp rc=52
+[2026-04-17 12:02:49] [FAIL 26/104] jobs/01_xtb/mult_1/random_d1.90_002_m1.inp rc=52
+[2026-04-17 12:02:49] [FAIL 27/104] jobs/01_xtb/mult_1/random_d1.90_003_m1.inp rc=52
+[2026-04-17 12:02:49] [FAIL 29/104] jobs/01_xtb/mult_1/random_d1.90_005_m1.inp rc=52
+[2026-04-17 12:02:49] [FAIL 28/104] jobs/01_xtb/mult_1/random_d1.90_004_m1.inp rc=52
+[2026-04-17 12:02:49] [FAIL 31/104] jobs/01_xtb/mult_1/random_d1.90_007_m1.inp rc=52
+[2026-04-17 12:02:49] [FAIL 32/104] jobs/01_xtb/mult_1/random_d1.90_008_m1.inp rc=52
+[2026-04-17 12:02:49] [FAIL 30/104] jobs/01_xtb/mult_1/random_d1.90_006_m1.inp rc=52
+[2026-04-17 12:02:51] [RUN  33/104] jobs/01_xtb/mult_1/random_d1.90_009_m1.inp
+[2026-04-17 12:02:51] [RUN  34/104] jobs/01_xtb/mult_1/random_d1.90_010_m1.inp
+[2026-04-17 12:02:51] [RUN  35/104] jobs/01_xtb/mult_1/random_d2.10_001_m1.inp
+[2026-04-17 12:02:51] [RUN  36/104] jobs/01_xtb/mult_1/random_d2.10_002_m1.inp
+[2026-04-17 12:02:51] [RUN  37/104] jobs/01_xtb/mult_1/random_d2.10_003_m1.inp
+[2026-04-17 12:02:51] [RUN  38/104] jobs/01_xtb/mult_1/random_d2.10_004_m1.inp
+[2026-04-17 12:02:51] [RUN  39/104] jobs/01_xtb/mult_1/random_d2.10_005_m1.inp
+[2026-04-17 12:02:51] [RUN  40/104] jobs/01_xtb/mult_1/random_d2.10_006_m1.inp
+[2026-04-17 12:02:51] [FAIL 34/104] jobs/01_xtb/mult_1/random_d1.90_010_m1.inp rc=52
+[2026-04-17 12:02:51] [FAIL 33/104] jobs/01_xtb/mult_1/random_d1.90_009_m1.inp rc=52
+[2026-04-17 12:02:51] [FAIL 35/104] jobs/01_xtb/mult_1/random_d2.10_001_m1.inp rc=52
+[2026-04-17 12:02:51] [FAIL 36/104] jobs/01_xtb/mult_1/random_d2.10_002_m1.inp rc=52
+[2026-04-17 12:02:51] [FAIL 39/104] jobs/01_xtb/mult_1/random_d2.10_005_m1.inp rc=52
+[2026-04-17 12:02:51] [FAIL 38/104] jobs/01_xtb/mult_1/random_d2.10_004_m1.inp rc=52
+[2026-04-17 12:02:51] [FAIL 37/104] jobs/01_xtb/mult_1/random_d2.10_003_m1.inp rc=52
+[2026-04-17 12:02:51] [FAIL 40/104] jobs/01_xtb/mult_1/random_d2.10_006_m1.inp rc=52
+[2026-04-17 12:02:53] [RUN  41/104] jobs/01_xtb/mult_1/random_d2.10_007_m1.inp
+[2026-04-17 12:02:53] [RUN  42/104] jobs/01_xtb/mult_1/random_d2.10_008_m1.inp
+[2026-04-17 12:02:53] [RUN  43/104] jobs/01_xtb/mult_1/random_d2.10_009_m1.inp
+[2026-04-17 12:02:53] [RUN  44/104] jobs/01_xtb/mult_1/random_d2.10_010_m1.inp
+[2026-04-17 12:02:53] [RUN  45/104] jobs/01_xtb/mult_1/ring12_d1.50_m1.inp
+[2026-04-17 12:02:53] [RUN  46/104] jobs/01_xtb/mult_1/ring12_d1.70_m1.inp
+[2026-04-17 12:02:53] [RUN  47/104] jobs/01_xtb/mult_1/ring12_d1.90_m1.inp
+[2026-04-17 12:02:53] [RUN  48/104] jobs/01_xtb/mult_1/ring12_d2.10_m1.inp
+[2026-04-17 12:02:53] [FAIL 41/104] jobs/01_xtb/mult_1/random_d2.10_007_m1.inp rc=52
+[2026-04-17 12:02:53] [FAIL 42/104] jobs/01_xtb/mult_1/random_d2.10_008_m1.inp rc=52
+[2026-04-17 12:02:53] [FAIL 44/104] jobs/01_xtb/mult_1/random_d2.10_010_m1.inp rc=52
+[2026-04-17 12:02:53] [FAIL 43/104] jobs/01_xtb/mult_1/random_d2.10_009_m1.inp rc=52
+[2026-04-17 12:02:53] [FAIL 45/104] jobs/01_xtb/mult_1/ring12_d1.50_m1.inp rc=52
+[2026-04-17 12:02:53] [FAIL 46/104] jobs/01_xtb/mult_1/ring12_d1.70_m1.inp rc=52
+[2026-04-17 12:02:53] [FAIL 47/104] jobs/01_xtb/mult_1/ring12_d1.90_m1.inp rc=52
+[2026-04-17 12:02:53] [FAIL 48/104] jobs/01_xtb/mult_1/ring12_d2.10_m1.inp rc=52
+[2026-04-17 12:02:55] [RUN  49/104] jobs/01_xtb/mult_1/zigzag_chain12_d1.50_m1.inp
+[2026-04-17 12:02:55] [RUN  50/104] jobs/01_xtb/mult_1/zigzag_chain12_d1.70_m1.inp
+[2026-04-17 12:02:55] [RUN  51/104] jobs/01_xtb/mult_1/zigzag_chain12_d1.90_m1.inp
+[2026-04-17 12:02:55] [RUN  52/104] jobs/01_xtb/mult_1/zigzag_chain12_d2.10_m1.inp
+[2026-04-17 12:02:55] [RUN  53/104] jobs/01_xtb/mult_3/double_ring_6_6_d1.50_m3.inp
+[2026-04-17 12:02:55] [RUN  54/104] jobs/01_xtb/mult_3/double_ring_6_6_d1.70_m3.inp
+[2026-04-17 12:02:55] [RUN  55/104] jobs/01_xtb/mult_3/double_ring_6_6_d1.90_m3.inp
+[2026-04-17 12:02:55] [RUN  56/104] jobs/01_xtb/mult_3/double_ring_6_6_d2.10_m3.inp
+[2026-04-17 12:02:55] [FAIL 50/104] jobs/01_xtb/mult_1/zigzag_chain12_d1.70_m1.inp rc=52
+[2026-04-17 12:02:55] [FAIL 49/104] jobs/01_xtb/mult_1/zigzag_chain12_d1.50_m1.inp rc=52
+[2026-04-17 12:02:55] [FAIL 51/104] jobs/01_xtb/mult_1/zigzag_chain12_d1.90_m1.inp rc=52
+[2026-04-17 12:02:55] [FAIL 53/104] jobs/01_xtb/mult_3/double_ring_6_6_d1.50_m3.inp rc=52
+[2026-04-17 12:02:55] [FAIL 54/104] jobs/01_xtb/mult_3/double_ring_6_6_d1.70_m3.inp rc=52
+[2026-04-17 12:02:55] [FAIL 55/104] jobs/01_xtb/mult_3/double_ring_6_6_d1.90_m3.inp rc=52
+[2026-04-17 12:02:55] [FAIL 56/104] jobs/01_xtb/mult_3/double_ring_6_6_d2.10_m3.inp rc=52
+[2026-04-17 12:02:55] [FAIL 52/104] jobs/01_xtb/mult_1/zigzag_chain12_d2.10_m1.inp rc=52
+[2026-04-17 12:02:57] [RUN  57/104] jobs/01_xtb/mult_3/random_d1.50_001_m3.inp
+[2026-04-17 12:02:57] [RUN  58/104] jobs/01_xtb/mult_3/random_d1.50_002_m3.inp
+[2026-04-17 12:02:57] [RUN  59/104] jobs/01_xtb/mult_3/random_d1.50_003_m3.inp
+[2026-04-17 12:02:57] [RUN  60/104] jobs/01_xtb/mult_3/random_d1.50_004_m3.inp
+[2026-04-17 12:02:57] [RUN  61/104] jobs/01_xtb/mult_3/random_d1.50_005_m3.inp
+[2026-04-17 12:02:57] [RUN  62/104] jobs/01_xtb/mult_3/random_d1.50_006_m3.inp
+[2026-04-17 12:02:57] [RUN  63/104] jobs/01_xtb/mult_3/random_d1.50_007_m3.inp
+[2026-04-17 12:02:57] [RUN  64/104] jobs/01_xtb/mult_3/random_d1.50_008_m3.inp
+[2026-04-17 12:02:57] [FAIL 57/104] jobs/01_xtb/mult_3/random_d1.50_001_m3.inp rc=52
+[2026-04-17 12:02:57] [FAIL 58/104] jobs/01_xtb/mult_3/random_d1.50_002_m3.inp rc=52
+[2026-04-17 12:02:58] [FAIL 59/104] jobs/01_xtb/mult_3/random_d1.50_003_m3.inp rc=52
+[2026-04-17 12:02:58] [FAIL 61/104] jobs/01_xtb/mult_3/random_d1.50_005_m3.inp rc=52
+[2026-04-17 12:02:58] [FAIL 60/104] jobs/01_xtb/mult_3/random_d1.50_004_m3.inp rc=52
+[2026-04-17 12:02:58] [FAIL 62/104] jobs/01_xtb/mult_3/random_d1.50_006_m3.inp rc=52
+[2026-04-17 12:02:58] [FAIL 63/104] jobs/01_xtb/mult_3/random_d1.50_007_m3.inp rc=52
+[2026-04-17 12:02:58] [FAIL 64/104] jobs/01_xtb/mult_3/random_d1.50_008_m3.inp rc=52
+[2026-04-17 12:02:59] [RUN  65/104] jobs/01_xtb/mult_3/random_d1.50_009_m3.inp
+[2026-04-17 12:02:59] [RUN  66/104] jobs/01_xtb/mult_3/random_d1.50_010_m3.inp
+[2026-04-17 12:02:59] [RUN  67/104] jobs/01_xtb/mult_3/random_d1.70_001_m3.inp
+[2026-04-17 12:02:59] [RUN  68/104] jobs/01_xtb/mult_3/random_d1.70_002_m3.inp
+[2026-04-17 12:02:59] [RUN  69/104] jobs/01_xtb/mult_3/random_d1.70_003_m3.inp
+[2026-04-17 12:02:59] [RUN  70/104] jobs/01_xtb/mult_3/random_d1.70_004_m3.inp
+[2026-04-17 12:02:59] [RUN  71/104] jobs/01_xtb/mult_3/random_d1.70_005_m3.inp
+[2026-04-17 12:02:59] [RUN  72/104] jobs/01_xtb/mult_3/random_d1.70_006_m3.inp
+[2026-04-17 12:03:00] [FAIL 65/104] jobs/01_xtb/mult_3/random_d1.50_009_m3.inp rc=52
+[2026-04-17 12:03:00] [FAIL 67/104] jobs/01_xtb/mult_3/random_d1.70_001_m3.inp rc=52
+[2026-04-17 12:03:00] [FAIL 66/104] jobs/01_xtb/mult_3/random_d1.50_010_m3.inp rc=52
+[2026-04-17 12:03:00] [FAIL 68/104] jobs/01_xtb/mult_3/random_d1.70_002_m3.inp rc=52
+[2026-04-17 12:03:00] [FAIL 69/104] jobs/01_xtb/mult_3/random_d1.70_003_m3.inp rc=52
+[2026-04-17 12:03:00] [FAIL 72/104] jobs/01_xtb/mult_3/random_d1.70_006_m3.inp rc=52
+[2026-04-17 12:03:00] [FAIL 70/104] jobs/01_xtb/mult_3/random_d1.70_004_m3.inp rc=52
+[2026-04-17 12:03:00] [FAIL 71/104] jobs/01_xtb/mult_3/random_d1.70_005_m3.inp rc=52
+[2026-04-17 12:03:02] [RUN  73/104] jobs/01_xtb/mult_3/random_d1.70_007_m3.inp
+[2026-04-17 12:03:02] [RUN  74/104] jobs/01_xtb/mult_3/random_d1.70_008_m3.inp
+[2026-04-17 12:03:02] [RUN  76/104] jobs/01_xtb/mult_3/random_d1.70_010_m3.inp
+[2026-04-17 12:03:02] [RUN  75/104] jobs/01_xtb/mult_3/random_d1.70_009_m3.inp
+[2026-04-17 12:03:02] [RUN  78/104] jobs/01_xtb/mult_3/random_d1.90_002_m3.inp
+[2026-04-17 12:03:02] [RUN  77/104] jobs/01_xtb/mult_3/random_d1.90_001_m3.inp
+[2026-04-17 12:03:02] [RUN  79/104] jobs/01_xtb/mult_3/random_d1.90_003_m3.inp
+[2026-04-17 12:03:02] [RUN  80/104] jobs/01_xtb/mult_3/random_d1.90_004_m3.inp
+[2026-04-17 12:03:02] [FAIL 73/104] jobs/01_xtb/mult_3/random_d1.70_007_m3.inp rc=52
+[2026-04-17 12:03:02] [FAIL 74/104] jobs/01_xtb/mult_3/random_d1.70_008_m3.inp rc=52
+[2026-04-17 12:03:02] [FAIL 76/104] jobs/01_xtb/mult_3/random_d1.70_010_m3.inp rc=52
+[2026-04-17 12:03:02] [FAIL 77/104] jobs/01_xtb/mult_3/random_d1.90_001_m3.inp rc=52
+[2026-04-17 12:03:02] [FAIL 78/104] jobs/01_xtb/mult_3/random_d1.90_002_m3.inp rc=52
+[2026-04-17 12:03:02] [FAIL 79/104] jobs/01_xtb/mult_3/random_d1.90_003_m3.inp rc=52
+[2026-04-17 12:03:02] [FAIL 75/104] jobs/01_xtb/mult_3/random_d1.70_009_m3.inp rc=52
+[2026-04-17 12:03:02] [FAIL 80/104] jobs/01_xtb/mult_3/random_d1.90_004_m3.inp rc=52
+[2026-04-17 12:03:04] [RUN  81/104] jobs/01_xtb/mult_3/random_d1.90_005_m3.inp
+[2026-04-17 12:03:04] [RUN  82/104] jobs/01_xtb/mult_3/random_d1.90_006_m3.inp
+[2026-04-17 12:03:04] [RUN  83/104] jobs/01_xtb/mult_3/random_d1.90_007_m3.inp
+[2026-04-17 12:03:04] [RUN  84/104] jobs/01_xtb/mult_3/random_d1.90_008_m3.inp
+[2026-04-17 12:03:04] [RUN  85/104] jobs/01_xtb/mult_3/random_d1.90_009_m3.inp
+[2026-04-17 12:03:04] [RUN  86/104] jobs/01_xtb/mult_3/random_d1.90_010_m3.inp
+[2026-04-17 12:03:04] [RUN  87/104] jobs/01_xtb/mult_3/random_d2.10_001_m3.inp
+[2026-04-17 12:03:04] [RUN  88/104] jobs/01_xtb/mult_3/random_d2.10_002_m3.inp
+[2026-04-17 12:03:04] [FAIL 83/104] jobs/01_xtb/mult_3/random_d1.90_007_m3.inp rc=52
+[2026-04-17 12:03:04] [FAIL 84/104] jobs/01_xtb/mult_3/random_d1.90_008_m3.inp rc=52
+[2026-04-17 12:03:04] [FAIL 82/104] jobs/01_xtb/mult_3/random_d1.90_006_m3.inp rc=52
+[2026-04-17 12:03:04] [FAIL 86/104] jobs/01_xtb/mult_3/random_d1.90_010_m3.inp rc=52
+[2026-04-17 12:03:04] [FAIL 85/104] jobs/01_xtb/mult_3/random_d1.90_009_m3.inp rc=52
+[2026-04-17 12:03:04] [FAIL 87/104] jobs/01_xtb/mult_3/random_d2.10_001_m3.inp rc=52
+[2026-04-17 12:03:04] [FAIL 81/104] jobs/01_xtb/mult_3/random_d1.90_005_m3.inp rc=52
+[2026-04-17 12:03:04] [FAIL 88/104] jobs/01_xtb/mult_3/random_d2.10_002_m3.inp rc=52
+[2026-04-17 12:03:06] [RUN  89/104] jobs/01_xtb/mult_3/random_d2.10_003_m3.inp
+[2026-04-17 12:03:06] [RUN  90/104] jobs/01_xtb/mult_3/random_d2.10_004_m3.inp
+[2026-04-17 12:03:06] [RUN  91/104] jobs/01_xtb/mult_3/random_d2.10_005_m3.inp
+[2026-04-17 12:03:06] [RUN  92/104] jobs/01_xtb/mult_3/random_d2.10_006_m3.inp
+[2026-04-17 12:03:06] [RUN  93/104] jobs/01_xtb/mult_3/random_d2.10_007_m3.inp
+[2026-04-17 12:03:06] [RUN  94/104] jobs/01_xtb/mult_3/random_d2.10_008_m3.inp
+[2026-04-17 12:03:06] [RUN  95/104] jobs/01_xtb/mult_3/random_d2.10_009_m3.inp
+[2026-04-17 12:03:06] [RUN  96/104] jobs/01_xtb/mult_3/random_d2.10_010_m3.inp
+[2026-04-17 12:03:06] [FAIL 90/104] jobs/01_xtb/mult_3/random_d2.10_004_m3.inp rc=52
+[2026-04-17 12:03:06] [FAIL 89/104] jobs/01_xtb/mult_3/random_d2.10_003_m3.inp rc=52
+[2026-04-17 12:03:06] [FAIL 91/104] jobs/01_xtb/mult_3/random_d2.10_005_m3.inp rc=52
+[2026-04-17 12:03:06] [FAIL 93/104] jobs/01_xtb/mult_3/random_d2.10_007_m3.inp rc=52
+[2026-04-17 12:03:06] [FAIL 92/104] jobs/01_xtb/mult_3/random_d2.10_006_m3.inp rc=52
+[2026-04-17 12:03:06] [FAIL 95/104] jobs/01_xtb/mult_3/random_d2.10_009_m3.inp rc=52
+[2026-04-17 12:03:06] [FAIL 94/104] jobs/01_xtb/mult_3/random_d2.10_008_m3.inp rc=52
+[2026-04-17 12:03:06] [FAIL 96/104] jobs/01_xtb/mult_3/random_d2.10_010_m3.inp rc=52
+[2026-04-17 12:03:08] [RUN  97/104] jobs/01_xtb/mult_3/ring12_d1.50_m3.inp
+[2026-04-17 12:03:08] [RUN  98/104] jobs/01_xtb/mult_3/ring12_d1.70_m3.inp
+[2026-04-17 12:03:08] [RUN  99/104] jobs/01_xtb/mult_3/ring12_d1.90_m3.inp
+[2026-04-17 12:03:08] [RUN  100/104] jobs/01_xtb/mult_3/ring12_d2.10_m3.inp
+[2026-04-17 12:03:08] [RUN  101/104] jobs/01_xtb/mult_3/zigzag_chain12_d1.50_m3.inp
+[2026-04-17 12:03:08] [RUN  102/104] jobs/01_xtb/mult_3/zigzag_chain12_d1.70_m3.inp
+[2026-04-17 12:03:08] [RUN  103/104] jobs/01_xtb/mult_3/zigzag_chain12_d1.90_m3.inp
+[2026-04-17 12:03:08] [RUN  104/104] jobs/01_xtb/mult_3/zigzag_chain12_d2.10_m3.inp
+[2026-04-17 12:03:08] [FAIL 97/104] jobs/01_xtb/mult_3/ring12_d1.50_m3.inp rc=52
+[2026-04-17 12:03:08] [FAIL 98/104] jobs/01_xtb/mult_3/ring12_d1.70_m3.inp rc=52
+[2026-04-17 12:03:08] [FAIL 99/104] jobs/01_xtb/mult_3/ring12_d1.90_m3.inp rc=52
+[2026-04-17 12:03:08] [FAIL 100/104] jobs/01_xtb/mult_3/ring12_d2.10_m3.inp rc=52
+[2026-04-17 12:03:08] [FAIL 101/104] jobs/01_xtb/mult_3/zigzag_chain12_d1.50_m3.inp rc=52
+[2026-04-17 12:03:08] [FAIL 103/104] jobs/01_xtb/mult_3/zigzag_chain12_d1.90_m3.inp rc=52
+[2026-04-17 12:03:08] [FAIL 102/104] jobs/01_xtb/mult_3/zigzag_chain12_d1.70_m3.inp rc=52
+[2026-04-17 12:03:08] [FAIL 104/104] jobs/01_xtb/mult_3/zigzag_chain12_d2.10_m3.inp rc=52
+[2026-04-17 12:03:08] FINISH jobs_dir=jobs/01_xtb fail=1
+[2026-04-17 12:04:15] START jobs_dir=jobs/01_xtb total=104 parallel=8
+[2026-04-17 12:04:15] [RUN  1/104] jobs/01_xtb/mult_1/double_ring_6_6_d1.50_m1.inp
+[2026-04-17 12:04:15] [RUN  2/104] jobs/01_xtb/mult_1/double_ring_6_6_d1.70_m1.inp
+[2026-04-17 12:04:15] [RUN  3/104] jobs/01_xtb/mult_1/double_ring_6_6_d1.90_m1.inp
+[2026-04-17 12:04:15] [RUN  4/104] jobs/01_xtb/mult_1/double_ring_6_6_d2.10_m1.inp
+[2026-04-17 12:04:15] [RUN  5/104] jobs/01_xtb/mult_1/random_d1.50_001_m1.inp
+[2026-04-17 12:04:15] [RUN  6/104] jobs/01_xtb/mult_1/random_d1.50_002_m1.inp
+[2026-04-17 12:04:15] [RUN  8/104] jobs/01_xtb/mult_1/random_d1.50_004_m1.inp
+[2026-04-17 12:04:15] [RUN  7/104] jobs/01_xtb/mult_1/random_d1.50_003_m1.inp
+[2026-04-17 12:04:15] [FAIL 1/104] jobs/01_xtb/mult_1/double_ring_6_6_d1.50_m1.inp rc=52
+[2026-04-17 12:04:15] [FAIL 2/104] jobs/01_xtb/mult_1/double_ring_6_6_d1.70_m1.inp rc=52
+[2026-04-17 12:04:15] [FAIL 3/104] jobs/01_xtb/mult_1/double_ring_6_6_d1.90_m1.inp rc=52
+[2026-04-17 12:04:15] [FAIL 4/104] jobs/01_xtb/mult_1/double_ring_6_6_d2.10_m1.inp rc=52
+[2026-04-17 12:04:15] [FAIL 5/104] jobs/01_xtb/mult_1/random_d1.50_001_m1.inp rc=52
+[2026-04-17 12:04:15] [FAIL 6/104] jobs/01_xtb/mult_1/random_d1.50_002_m1.inp rc=52
+[2026-04-17 12:04:15] [FAIL 8/104] jobs/01_xtb/mult_1/random_d1.50_004_m1.inp rc=52
+[2026-04-17 12:04:15] [FAIL 7/104] jobs/01_xtb/mult_1/random_d1.50_003_m1.inp rc=52
+[2026-04-17 12:04:17] [RUN  9/104] jobs/01_xtb/mult_1/random_d1.50_005_m1.inp
+[2026-04-17 12:04:17] [RUN  10/104] jobs/01_xtb/mult_1/random_d1.50_006_m1.inp
+[2026-04-17 12:04:17] [RUN  11/104] jobs/01_xtb/mult_1/random_d1.50_007_m1.inp
+[2026-04-17 12:04:17] [RUN  12/104] jobs/01_xtb/mult_1/random_d1.50_008_m1.inp
+[2026-04-17 12:04:17] [RUN  13/104] jobs/01_xtb/mult_1/random_d1.50_009_m1.inp
+[2026-04-17 12:04:17] [RUN  14/104] jobs/01_xtb/mult_1/random_d1.50_010_m1.inp
+[2026-04-17 12:04:17] [RUN  15/104] jobs/01_xtb/mult_1/random_d1.70_001_m1.inp
+[2026-04-17 12:04:17] [RUN  16/104] jobs/01_xtb/mult_1/random_d1.70_002_m1.inp
+[2026-04-17 12:04:17] [FAIL 10/104] jobs/01_xtb/mult_1/random_d1.50_006_m1.inp rc=52
+[2026-04-17 12:04:17] [FAIL 11/104] jobs/01_xtb/mult_1/random_d1.50_007_m1.inp rc=52
+[2026-04-17 12:04:17] [FAIL 9/104] jobs/01_xtb/mult_1/random_d1.50_005_m1.inp rc=52
+[2026-04-17 12:04:17] [FAIL 12/104] jobs/01_xtb/mult_1/random_d1.50_008_m1.inp rc=52
+[2026-04-17 12:04:17] [FAIL 14/104] jobs/01_xtb/mult_1/random_d1.50_010_m1.inp rc=52
+[2026-04-17 12:04:17] [FAIL 13/104] jobs/01_xtb/mult_1/random_d1.50_009_m1.inp rc=52
+[2026-04-17 12:04:17] [FAIL 15/104] jobs/01_xtb/mult_1/random_d1.70_001_m1.inp rc=52
+[2026-04-17 12:04:17] [FAIL 16/104] jobs/01_xtb/mult_1/random_d1.70_002_m1.inp rc=52
+[2026-04-17 12:04:19] [RUN  17/104] jobs/01_xtb/mult_1/random_d1.70_003_m1.inp
+[2026-04-17 12:04:19] [RUN  18/104] jobs/01_xtb/mult_1/random_d1.70_004_m1.inp
+[2026-04-17 12:04:19] [RUN  19/104] jobs/01_xtb/mult_1/random_d1.70_005_m1.inp
+[2026-04-17 12:04:19] [RUN  20/104] jobs/01_xtb/mult_1/random_d1.70_006_m1.inp
+[2026-04-17 12:04:19] [RUN  21/104] jobs/01_xtb/mult_1/random_d1.70_007_m1.inp
+[2026-04-17 12:04:19] [RUN  23/104] jobs/01_xtb/mult_1/random_d1.70_009_m1.inp
+[2026-04-17 12:04:19] [RUN  22/104] jobs/01_xtb/mult_1/random_d1.70_008_m1.inp
+[2026-04-17 12:04:19] [RUN  24/104] jobs/01_xtb/mult_1/random_d1.70_010_m1.inp
+[2026-04-17 12:04:19] [FAIL 17/104] jobs/01_xtb/mult_1/random_d1.70_003_m1.inp rc=52
+[2026-04-17 12:04:19] [FAIL 19/104] jobs/01_xtb/mult_1/random_d1.70_005_m1.inp rc=52
+[2026-04-17 12:04:19] [FAIL 18/104] jobs/01_xtb/mult_1/random_d1.70_004_m1.inp rc=52
+[2026-04-17 12:04:19] [FAIL 20/104] jobs/01_xtb/mult_1/random_d1.70_006_m1.inp rc=52
+[2026-04-17 12:04:19] [FAIL 21/104] jobs/01_xtb/mult_1/random_d1.70_007_m1.inp rc=52
+[2026-04-17 12:04:19] [FAIL 23/104] jobs/01_xtb/mult_1/random_d1.70_009_m1.inp rc=52
+[2026-04-17 12:04:19] [FAIL 22/104] jobs/01_xtb/mult_1/random_d1.70_008_m1.inp rc=52
+[2026-04-17 12:04:19] [FAIL 24/104] jobs/01_xtb/mult_1/random_d1.70_010_m1.inp rc=52
+[2026-04-17 12:04:21] [RUN  25/104] jobs/01_xtb/mult_1/random_d1.90_001_m1.inp
+[2026-04-17 12:04:21] [RUN  26/104] jobs/01_xtb/mult_1/random_d1.90_002_m1.inp
+[2026-04-17 12:04:21] [RUN  27/104] jobs/01_xtb/mult_1/random_d1.90_003_m1.inp
+[2026-04-17 12:04:21] [RUN  28/104] jobs/01_xtb/mult_1/random_d1.90_004_m1.inp
+[2026-04-17 12:04:21] [RUN  29/104] jobs/01_xtb/mult_1/random_d1.90_005_m1.inp
+[2026-04-17 12:04:21] [RUN  30/104] jobs/01_xtb/mult_1/random_d1.90_006_m1.inp
+[2026-04-17 12:04:21] [RUN  31/104] jobs/01_xtb/mult_1/random_d1.90_007_m1.inp
+[2026-04-17 12:04:21] [RUN  32/104] jobs/01_xtb/mult_1/random_d1.90_008_m1.inp
+[2026-04-17 12:04:21] [FAIL 25/104] jobs/01_xtb/mult_1/random_d1.90_001_m1.inp rc=52
+[2026-04-17 12:04:21] [FAIL 26/104] jobs/01_xtb/mult_1/random_d1.90_002_m1.inp rc=52
+[2026-04-17 12:04:21] [FAIL 28/104] jobs/01_xtb/mult_1/random_d1.90_004_m1.inp rc=52
+[2026-04-17 12:04:21] [FAIL 27/104] jobs/01_xtb/mult_1/random_d1.90_003_m1.inp rc=52
+[2026-04-17 12:04:21] [FAIL 29/104] jobs/01_xtb/mult_1/random_d1.90_005_m1.inp rc=52
+[2026-04-17 12:04:21] [FAIL 30/104] jobs/01_xtb/mult_1/random_d1.90_006_m1.inp rc=52
+[2026-04-17 12:04:21] [FAIL 31/104] jobs/01_xtb/mult_1/random_d1.90_007_m1.inp rc=52
+[2026-04-17 12:04:21] [FAIL 32/104] jobs/01_xtb/mult_1/random_d1.90_008_m1.inp rc=52
+[2026-04-17 12:04:23] [RUN  33/104] jobs/01_xtb/mult_1/random_d1.90_009_m1.inp
+[2026-04-17 12:04:23] [RUN  34/104] jobs/01_xtb/mult_1/random_d1.90_010_m1.inp
+[2026-04-17 12:04:23] [RUN  35/104] jobs/01_xtb/mult_1/random_d2.10_001_m1.inp
+[2026-04-17 12:04:23] [RUN  36/104] jobs/01_xtb/mult_1/random_d2.10_002_m1.inp
+[2026-04-17 12:04:23] [RUN  37/104] jobs/01_xtb/mult_1/random_d2.10_003_m1.inp
+[2026-04-17 12:04:23] [RUN  38/104] jobs/01_xtb/mult_1/random_d2.10_004_m1.inp
+[2026-04-17 12:04:23] [RUN  39/104] jobs/01_xtb/mult_1/random_d2.10_005_m1.inp
+[2026-04-17 12:04:23] [RUN  40/104] jobs/01_xtb/mult_1/random_d2.10_006_m1.inp
+[2026-04-17 12:04:23] [FAIL 33/104] jobs/01_xtb/mult_1/random_d1.90_009_m1.inp rc=52
+[2026-04-17 12:04:23] [FAIL 34/104] jobs/01_xtb/mult_1/random_d1.90_010_m1.inp rc=52
+[2026-04-17 12:04:23] [FAIL 36/104] jobs/01_xtb/mult_1/random_d2.10_002_m1.inp rc=52
+[2026-04-17 12:04:23] [FAIL 38/104] jobs/01_xtb/mult_1/random_d2.10_004_m1.inp rc=52
+[2026-04-17 12:04:23] [FAIL 37/104] jobs/01_xtb/mult_1/random_d2.10_003_m1.inp rc=52
+[2026-04-17 12:04:23] [FAIL 35/104] jobs/01_xtb/mult_1/random_d2.10_001_m1.inp rc=52
+[2026-04-17 12:04:23] [FAIL 39/104] jobs/01_xtb/mult_1/random_d2.10_005_m1.inp rc=52
+[2026-04-17 12:04:23] [FAIL 40/104] jobs/01_xtb/mult_1/random_d2.10_006_m1.inp rc=52
+[2026-04-17 12:04:25] [RUN  41/104] jobs/01_xtb/mult_1/random_d2.10_007_m1.inp
+[2026-04-17 12:04:25] [RUN  42/104] jobs/01_xtb/mult_1/random_d2.10_008_m1.inp
+[2026-04-17 12:04:25] [RUN  43/104] jobs/01_xtb/mult_1/random_d2.10_009_m1.inp
+[2026-04-17 12:04:25] [RUN  44/104] jobs/01_xtb/mult_1/random_d2.10_010_m1.inp
+[2026-04-17 12:04:25] [RUN  45/104] jobs/01_xtb/mult_1/ring12_d1.50_m1.inp
+[2026-04-17 12:04:25] [RUN  46/104] jobs/01_xtb/mult_1/ring12_d1.70_m1.inp
+[2026-04-17 12:04:25] [RUN  47/104] jobs/01_xtb/mult_1/ring12_d1.90_m1.inp
+[2026-04-17 12:04:25] [RUN  48/104] jobs/01_xtb/mult_1/ring12_d2.10_m1.inp
+[2026-04-17 12:04:25] [FAIL 42/104] jobs/01_xtb/mult_1/random_d2.10_008_m1.inp rc=52
+[2026-04-17 12:04:25] [FAIL 43/104] jobs/01_xtb/mult_1/random_d2.10_009_m1.inp rc=52
+[2026-04-17 12:04:25] [FAIL 41/104] jobs/01_xtb/mult_1/random_d2.10_007_m1.inp rc=52
+[2026-04-17 12:04:25] [FAIL 45/104] jobs/01_xtb/mult_1/ring12_d1.50_m1.inp rc=52
+[2026-04-17 12:04:25] [FAIL 46/104] jobs/01_xtb/mult_1/ring12_d1.70_m1.inp rc=52
+[2026-04-17 12:04:25] [FAIL 44/104] jobs/01_xtb/mult_1/random_d2.10_010_m1.inp rc=52
+[2026-04-17 12:04:25] [FAIL 47/104] jobs/01_xtb/mult_1/ring12_d1.90_m1.inp rc=52
+[2026-04-17 12:04:25] [FAIL 48/104] jobs/01_xtb/mult_1/ring12_d2.10_m1.inp rc=52
+[2026-04-17 12:04:27] [RUN  49/104] jobs/01_xtb/mult_1/zigzag_chain12_d1.50_m1.inp
+[2026-04-17 12:04:27] [RUN  50/104] jobs/01_xtb/mult_1/zigzag_chain12_d1.70_m1.inp
+[2026-04-17 12:04:27] [RUN  51/104] jobs/01_xtb/mult_1/zigzag_chain12_d1.90_m1.inp
+[2026-04-17 12:04:27] [RUN  52/104] jobs/01_xtb/mult_1/zigzag_chain12_d2.10_m1.inp
+[2026-04-17 12:04:27] [RUN  53/104] jobs/01_xtb/mult_3/double_ring_6_6_d1.50_m3.inp
+[2026-04-17 12:04:27] [RUN  54/104] jobs/01_xtb/mult_3/double_ring_6_6_d1.70_m3.inp
+[2026-04-17 12:04:27] [RUN  55/104] jobs/01_xtb/mult_3/double_ring_6_6_d1.90_m3.inp
+[2026-04-17 12:04:27] [RUN  56/104] jobs/01_xtb/mult_3/double_ring_6_6_d2.10_m3.inp
+[2026-04-17 12:04:27] [FAIL 49/104] jobs/01_xtb/mult_1/zigzag_chain12_d1.50_m1.inp rc=52
+[2026-04-17 12:04:27] [FAIL 51/104] jobs/01_xtb/mult_1/zigzag_chain12_d1.90_m1.inp rc=52
+[2026-04-17 12:04:27] [FAIL 53/104] jobs/01_xtb/mult_3/double_ring_6_6_d1.50_m3.inp rc=52
+[2026-04-17 12:04:27] [FAIL 52/104] jobs/01_xtb/mult_1/zigzag_chain12_d2.10_m1.inp rc=52
+[2026-04-17 12:04:27] [FAIL 50/104] jobs/01_xtb/mult_1/zigzag_chain12_d1.70_m1.inp rc=52
+[2026-04-17 12:04:27] [FAIL 54/104] jobs/01_xtb/mult_3/double_ring_6_6_d1.70_m3.inp rc=52
+[2026-04-17 12:04:27] [FAIL 55/104] jobs/01_xtb/mult_3/double_ring_6_6_d1.90_m3.inp rc=52
+[2026-04-17 12:04:27] [FAIL 56/104] jobs/01_xtb/mult_3/double_ring_6_6_d2.10_m3.inp rc=52
+[2026-04-17 12:04:29] [RUN  57/104] jobs/01_xtb/mult_3/random_d1.50_001_m3.inp
+[2026-04-17 12:04:29] [RUN  58/104] jobs/01_xtb/mult_3/random_d1.50_002_m3.inp
+[2026-04-17 12:04:29] [RUN  59/104] jobs/01_xtb/mult_3/random_d1.50_003_m3.inp
+[2026-04-17 12:04:29] [RUN  60/104] jobs/01_xtb/mult_3/random_d1.50_004_m3.inp
+[2026-04-17 12:04:29] [RUN  61/104] jobs/01_xtb/mult_3/random_d1.50_005_m3.inp
+[2026-04-17 12:04:29] [RUN  62/104] jobs/01_xtb/mult_3/random_d1.50_006_m3.inp
+[2026-04-17 12:04:29] [RUN  63/104] jobs/01_xtb/mult_3/random_d1.50_007_m3.inp
+[2026-04-17 12:04:29] [RUN  64/104] jobs/01_xtb/mult_3/random_d1.50_008_m3.inp
+[2026-04-17 12:04:29] [FAIL 57/104] jobs/01_xtb/mult_3/random_d1.50_001_m3.inp rc=52
+[2026-04-17 12:04:29] [FAIL 59/104] jobs/01_xtb/mult_3/random_d1.50_003_m3.inp rc=52
+[2026-04-17 12:04:29] [FAIL 58/104] jobs/01_xtb/mult_3/random_d1.50_002_m3.inp rc=52
+[2026-04-17 12:04:29] [FAIL 60/104] jobs/01_xtb/mult_3/random_d1.50_004_m3.inp rc=52
+[2026-04-17 12:04:30] [FAIL 61/104] jobs/01_xtb/mult_3/random_d1.50_005_m3.inp rc=52
+[2026-04-17 12:04:30] [FAIL 64/104] jobs/01_xtb/mult_3/random_d1.50_008_m3.inp rc=52
+[2026-04-17 12:04:30] [FAIL 62/104] jobs/01_xtb/mult_3/random_d1.50_006_m3.inp rc=52
+[2026-04-17 12:04:30] [FAIL 63/104] jobs/01_xtb/mult_3/random_d1.50_007_m3.inp rc=52
+[2026-04-17 12:04:31] [RUN  65/104] jobs/01_xtb/mult_3/random_d1.50_009_m3.inp
+[2026-04-17 12:04:31] [RUN  66/104] jobs/01_xtb/mult_3/random_d1.50_010_m3.inp
+[2026-04-17 12:04:31] [RUN  67/104] jobs/01_xtb/mult_3/random_d1.70_001_m3.inp
+[2026-04-17 12:04:31] [RUN  68/104] jobs/01_xtb/mult_3/random_d1.70_002_m3.inp
+[2026-04-17 12:04:31] [RUN  69/104] jobs/01_xtb/mult_3/random_d1.70_003_m3.inp
+[2026-04-17 12:04:31] [RUN  70/104] jobs/01_xtb/mult_3/random_d1.70_004_m3.inp
+[2026-04-17 12:04:31] [RUN  71/104] jobs/01_xtb/mult_3/random_d1.70_005_m3.inp
+[2026-04-17 12:04:31] [RUN  72/104] jobs/01_xtb/mult_3/random_d1.70_006_m3.inp
+[2026-04-17 12:04:32] [FAIL 65/104] jobs/01_xtb/mult_3/random_d1.50_009_m3.inp rc=52
+[2026-04-17 12:04:32] [FAIL 68/104] jobs/01_xtb/mult_3/random_d1.70_002_m3.inp rc=52
+[2026-04-17 12:04:32] [FAIL 67/104] jobs/01_xtb/mult_3/random_d1.70_001_m3.inp rc=52
+[2026-04-17 12:04:32] [FAIL 66/104] jobs/01_xtb/mult_3/random_d1.50_010_m3.inp rc=52
+[2026-04-17 12:04:32] [FAIL 70/104] jobs/01_xtb/mult_3/random_d1.70_004_m3.inp rc=52
+[2026-04-17 12:04:32] [FAIL 69/104] jobs/01_xtb/mult_3/random_d1.70_003_m3.inp rc=52
+[2026-04-17 12:04:32] [FAIL 71/104] jobs/01_xtb/mult_3/random_d1.70_005_m3.inp rc=52
+[2026-04-17 12:04:32] [FAIL 72/104] jobs/01_xtb/mult_3/random_d1.70_006_m3.inp rc=52
+[2026-04-17 12:04:33] [RUN  73/104] jobs/01_xtb/mult_3/random_d1.70_007_m3.inp
+[2026-04-17 12:04:34] [RUN  74/104] jobs/01_xtb/mult_3/random_d1.70_008_m3.inp
+[2026-04-17 12:04:34] [RUN  75/104] jobs/01_xtb/mult_3/random_d1.70_009_m3.inp
+[2026-04-17 12:04:34] [RUN  76/104] jobs/01_xtb/mult_3/random_d1.70_010_m3.inp
+[2026-04-17 12:04:34] [RUN  77/104] jobs/01_xtb/mult_3/random_d1.90_001_m3.inp
+[2026-04-17 12:04:34] [RUN  78/104] jobs/01_xtb/mult_3/random_d1.90_002_m3.inp
+[2026-04-17 12:04:34] [RUN  79/104] jobs/01_xtb/mult_3/random_d1.90_003_m3.inp
+[2026-04-17 12:04:34] [RUN  80/104] jobs/01_xtb/mult_3/random_d1.90_004_m3.inp
+[2026-04-17 12:04:34] [FAIL 73/104] jobs/01_xtb/mult_3/random_d1.70_007_m3.inp rc=52
+[2026-04-17 12:04:34] [FAIL 75/104] jobs/01_xtb/mult_3/random_d1.70_009_m3.inp rc=52
+[2026-04-17 12:04:34] [FAIL 74/104] jobs/01_xtb/mult_3/random_d1.70_008_m3.inp rc=52
+[2026-04-17 12:04:34] [FAIL 76/104] jobs/01_xtb/mult_3/random_d1.70_010_m3.inp rc=52
+[2026-04-17 12:04:34] [FAIL 78/104] jobs/01_xtb/mult_3/random_d1.90_002_m3.inp rc=52
+[2026-04-17 12:04:34] [FAIL 77/104] jobs/01_xtb/mult_3/random_d1.90_001_m3.inp rc=52
+[2026-04-17 12:04:34] [FAIL 79/104] jobs/01_xtb/mult_3/random_d1.90_003_m3.inp rc=52
+[2026-04-17 12:04:34] [FAIL 80/104] jobs/01_xtb/mult_3/random_d1.90_004_m3.inp rc=52
+[2026-04-17 12:04:36] [RUN  81/104] jobs/01_xtb/mult_3/random_d1.90_005_m3.inp
+[2026-04-17 12:04:36] [RUN  82/104] jobs/01_xtb/mult_3/random_d1.90_006_m3.inp
+[2026-04-17 12:04:36] [RUN  83/104] jobs/01_xtb/mult_3/random_d1.90_007_m3.inp
+[2026-04-17 12:04:36] [RUN  84/104] jobs/01_xtb/mult_3/random_d1.90_008_m3.inp
+[2026-04-17 12:04:36] [RUN  85/104] jobs/01_xtb/mult_3/random_d1.90_009_m3.inp
+[2026-04-17 12:04:36] [RUN  86/104] jobs/01_xtb/mult_3/random_d1.90_010_m3.inp
+[2026-04-17 12:04:36] [RUN  87/104] jobs/01_xtb/mult_3/random_d2.10_001_m3.inp
+[2026-04-17 12:04:36] [RUN  88/104] jobs/01_xtb/mult_3/random_d2.10_002_m3.inp
+[2026-04-17 12:04:36] [FAIL 81/104] jobs/01_xtb/mult_3/random_d1.90_005_m3.inp rc=52
+[2026-04-17 12:04:36] [FAIL 82/104] jobs/01_xtb/mult_3/random_d1.90_006_m3.inp rc=52
+[2026-04-17 12:04:36] [FAIL 84/104] jobs/01_xtb/mult_3/random_d1.90_008_m3.inp rc=52
+[2026-04-17 12:04:36] [FAIL 83/104] jobs/01_xtb/mult_3/random_d1.90_007_m3.inp rc=52
+[2026-04-17 12:04:36] [FAIL 85/104] jobs/01_xtb/mult_3/random_d1.90_009_m3.inp rc=52
+[2026-04-17 12:04:36] [FAIL 86/104] jobs/01_xtb/mult_3/random_d1.90_010_m3.inp rc=52
+[2026-04-17 12:04:36] [FAIL 87/104] jobs/01_xtb/mult_3/random_d2.10_001_m3.inp rc=52
+[2026-04-17 12:04:36] [FAIL 88/104] jobs/01_xtb/mult_3/random_d2.10_002_m3.inp rc=52
+[2026-04-17 12:04:38] [RUN  89/104] jobs/01_xtb/mult_3/random_d2.10_003_m3.inp
+[2026-04-17 12:04:38] [RUN  90/104] jobs/01_xtb/mult_3/random_d2.10_004_m3.inp
+[2026-04-17 12:04:38] [RUN  91/104] jobs/01_xtb/mult_3/random_d2.10_005_m3.inp
+[2026-04-17 12:04:38] [RUN  92/104] jobs/01_xtb/mult_3/random_d2.10_006_m3.inp
+[2026-04-17 12:04:38] [RUN  93/104] jobs/01_xtb/mult_3/random_d2.10_007_m3.inp
+[2026-04-17 12:04:38] [RUN  94/104] jobs/01_xtb/mult_3/random_d2.10_008_m3.inp
+[2026-04-17 12:04:38] [RUN  95/104] jobs/01_xtb/mult_3/random_d2.10_009_m3.inp
+[2026-04-17 12:04:38] [RUN  96/104] jobs/01_xtb/mult_3/random_d2.10_010_m3.inp
+[2026-04-17 12:04:38] [FAIL 89/104] jobs/01_xtb/mult_3/random_d2.10_003_m3.inp rc=52
+[2026-04-17 12:04:38] [FAIL 91/104] jobs/01_xtb/mult_3/random_d2.10_005_m3.inp rc=52
+[2026-04-17 12:04:38] [FAIL 90/104] jobs/01_xtb/mult_3/random_d2.10_004_m3.inp rc=52
+[2026-04-17 12:04:38] [FAIL 93/104] jobs/01_xtb/mult_3/random_d2.10_007_m3.inp rc=52
+[2026-04-17 12:04:38] [FAIL 92/104] jobs/01_xtb/mult_3/random_d2.10_006_m3.inp rc=52
+[2026-04-17 12:04:38] [FAIL 94/104] jobs/01_xtb/mult_3/random_d2.10_008_m3.inp rc=52
+[2026-04-17 12:04:38] [FAIL 95/104] jobs/01_xtb/mult_3/random_d2.10_009_m3.inp rc=52
+[2026-04-17 12:04:38] [FAIL 96/104] jobs/01_xtb/mult_3/random_d2.10_010_m3.inp rc=52
+[2026-04-17 12:04:40] [RUN  97/104] jobs/01_xtb/mult_3/ring12_d1.50_m3.inp
+[2026-04-17 12:04:40] [RUN  98/104] jobs/01_xtb/mult_3/ring12_d1.70_m3.inp
+[2026-04-17 12:04:40] [RUN  99/104] jobs/01_xtb/mult_3/ring12_d1.90_m3.inp
+[2026-04-17 12:04:40] [RUN  100/104] jobs/01_xtb/mult_3/ring12_d2.10_m3.inp
+[2026-04-17 12:04:40] [RUN  101/104] jobs/01_xtb/mult_3/zigzag_chain12_d1.50_m3.inp
+[2026-04-17 12:04:40] [RUN  102/104] jobs/01_xtb/mult_3/zigzag_chain12_d1.70_m3.inp
+[2026-04-17 12:04:40] [RUN  103/104] jobs/01_xtb/mult_3/zigzag_chain12_d1.90_m3.inp
+[2026-04-17 12:04:40] [RUN  104/104] jobs/01_xtb/mult_3/zigzag_chain12_d2.10_m3.inp
+[2026-04-17 12:04:40] [FAIL 97/104] jobs/01_xtb/mult_3/ring12_d1.50_m3.inp rc=52
+[2026-04-17 12:04:40] [FAIL 99/104] jobs/01_xtb/mult_3/ring12_d1.90_m3.inp rc=52
+[2026-04-17 12:04:40] [FAIL 100/104] jobs/01_xtb/mult_3/ring12_d2.10_m3.inp rc=52
+[2026-04-17 12:04:40] [FAIL 98/104] jobs/01_xtb/mult_3/ring12_d1.70_m3.inp rc=52
+[2026-04-17 12:04:40] [FAIL 101/104] jobs/01_xtb/mult_3/zigzag_chain12_d1.50_m3.inp rc=52
+[2026-04-17 12:04:40] [FAIL 102/104] jobs/01_xtb/mult_3/zigzag_chain12_d1.70_m3.inp rc=52
+[2026-04-17 12:04:40] [FAIL 103/104] jobs/01_xtb/mult_3/zigzag_chain12_d1.90_m3.inp rc=52
+[2026-04-17 12:04:40] [FAIL 104/104] jobs/01_xtb/mult_3/zigzag_chain12_d2.10_m3.inp rc=52
+[2026-04-17 12:04:40] FINISH jobs_dir=jobs/01_xtb fail=1
+[2026-04-17 12:14:00] START jobs_dir=jobs/01_xtb total=104 parallel=8
+[2026-04-17 12:14:00] [RUN  1/104] jobs/01_xtb/mult_1/double_ring_6_6_d1.50_m1.inp
+[2026-04-17 12:14:00] [RUN  2/104] jobs/01_xtb/mult_1/double_ring_6_6_d1.70_m1.inp
+[2026-04-17 12:14:00] [RUN  3/104] jobs/01_xtb/mult_1/double_ring_6_6_d1.90_m1.inp
+[2026-04-17 12:14:00] [RUN  4/104] jobs/01_xtb/mult_1/double_ring_6_6_d2.10_m1.inp
+[2026-04-17 12:14:00] [RUN  5/104] jobs/01_xtb/mult_1/random_d1.50_001_m1.inp
+[2026-04-17 12:14:00] [RUN  6/104] jobs/01_xtb/mult_1/random_d1.50_002_m1.inp
+[2026-04-17 12:14:00] [RUN  7/104] jobs/01_xtb/mult_1/random_d1.50_003_m1.inp
+[2026-04-17 12:14:00] [RUN  8/104] jobs/01_xtb/mult_1/random_d1.50_004_m1.inp
+[2026-04-17 12:14:02] [DONE 1/104] jobs/01_xtb/mult_1/double_ring_6_6_d1.50_m1.inp
+[2026-04-17 12:14:02] [DONE 2/104] jobs/01_xtb/mult_1/double_ring_6_6_d1.70_m1.inp
+[2026-04-17 12:14:02] [RUN  9/104] jobs/01_xtb/mult_1/random_d1.50_005_m1.inp
+[2026-04-17 12:14:02] [RUN  10/104] jobs/01_xtb/mult_1/random_d1.50_006_m1.inp
+[2026-04-17 12:14:02] [DONE 3/104] jobs/01_xtb/mult_1/double_ring_6_6_d1.90_m1.inp
+[2026-04-17 12:14:04] [DONE 7/104] jobs/01_xtb/mult_1/random_d1.50_003_m1.inp
+[2026-04-17 12:14:04] [RUN  11/104] jobs/01_xtb/mult_1/random_d1.50_007_m1.inp
+[2026-04-17 12:14:04] [RUN  12/104] jobs/01_xtb/mult_1/random_d1.50_008_m1.inp
+[2026-04-17 12:14:04] [DONE 8/104] jobs/01_xtb/mult_1/random_d1.50_004_m1.inp
+[2026-04-17 12:14:04] [DONE 5/104] jobs/01_xtb/mult_1/random_d1.50_001_m1.inp
+[2026-04-17 12:14:04] [DONE 4/104] jobs/01_xtb/mult_1/double_ring_6_6_d2.10_m1.inp
+[2026-04-17 12:14:05] [DONE 6/104] jobs/01_xtb/mult_1/random_d1.50_002_m1.inp
+[2026-04-17 12:14:05] [DONE 9/104] jobs/01_xtb/mult_1/random_d1.50_005_m1.inp
+[2026-04-17 12:14:06] [DONE 10/104] jobs/01_xtb/mult_1/random_d1.50_006_m1.inp
+[2026-04-17 12:14:06] [RUN  14/104] jobs/01_xtb/mult_1/random_d1.50_010_m1.inp
+[2026-04-17 12:14:06] [RUN  13/104] jobs/01_xtb/mult_1/random_d1.50_009_m1.inp
+[2026-04-17 12:14:06] [RUN  15/104] jobs/01_xtb/mult_1/random_d1.70_001_m1.inp
+[2026-04-17 12:14:06] [RUN  16/104] jobs/01_xtb/mult_1/random_d1.70_002_m1.inp
+[2026-04-17 12:14:06] [RUN  17/104] jobs/01_xtb/mult_1/random_d1.70_003_m1.inp
+[2026-04-17 12:14:06] [RUN  18/104] jobs/01_xtb/mult_1/random_d1.70_004_m1.inp
+[2026-04-17 12:14:07] [DONE 12/104] jobs/01_xtb/mult_1/random_d1.50_008_m1.inp
+[2026-04-17 12:14:08] [DONE 11/104] jobs/01_xtb/mult_1/random_d1.50_007_m1.inp
+[2026-04-17 12:14:08] [RUN  19/104] jobs/01_xtb/mult_1/random_d1.70_005_m1.inp
+[2026-04-17 12:14:08] [RUN  20/104] jobs/01_xtb/mult_1/random_d1.70_006_m1.inp
+[2026-04-17 12:14:09] [DONE 13/104] jobs/01_xtb/mult_1/random_d1.50_009_m1.inp
+[2026-04-17 12:14:10] [DONE 14/104] jobs/01_xtb/mult_1/random_d1.50_010_m1.inp
+[2026-04-17 12:14:10] [DONE 16/104] jobs/01_xtb/mult_1/random_d1.70_002_m1.inp
+[2026-04-17 12:14:10] [DONE 17/104] jobs/01_xtb/mult_1/random_d1.70_003_m1.inp
+[2026-04-17 12:14:10] [DONE 15/104] jobs/01_xtb/mult_1/random_d1.70_001_m1.inp
+[2026-04-17 12:14:10] [DONE 18/104] jobs/01_xtb/mult_1/random_d1.70_004_m1.inp
+[2026-04-17 12:14:10] [RUN  21/104] jobs/01_xtb/mult_1/random_d1.70_007_m1.inp
+[2026-04-17 12:14:10] [RUN  22/104] jobs/01_xtb/mult_1/random_d1.70_008_m1.inp
+[2026-04-17 12:14:10] [RUN  23/104] jobs/01_xtb/mult_1/random_d1.70_009_m1.inp
+[2026-04-17 12:14:10] [RUN  24/104] jobs/01_xtb/mult_1/random_d1.70_010_m1.inp
+[2026-04-17 12:14:10] [RUN  25/104] jobs/01_xtb/mult_1/random_d1.90_001_m1.inp
+[2026-04-17 12:14:10] [RUN  26/104] jobs/01_xtb/mult_1/random_d1.90_002_m1.inp
+[2026-04-17 12:14:12] [DONE 20/104] jobs/01_xtb/mult_1/random_d1.70_006_m1.inp
+[2026-04-17 12:14:12] [RUN  27/104] jobs/01_xtb/mult_1/random_d1.90_003_m1.inp
+[2026-04-17 12:14:12] [DONE 19/104] jobs/01_xtb/mult_1/random_d1.70_005_m1.inp
+[2026-04-17 12:14:14] [DONE 21/104] jobs/01_xtb/mult_1/random_d1.70_007_m1.inp
+[2026-04-17 12:14:14] [DONE 24/104] jobs/01_xtb/mult_1/random_d1.70_010_m1.inp
+[2026-04-17 12:14:14] [DONE 26/104] jobs/01_xtb/mult_1/random_d1.90_002_m1.inp
+[2026-04-17 12:14:14] [RUN  28/104] jobs/01_xtb/mult_1/random_d1.90_004_m1.inp
+[2026-04-17 12:14:14] [RUN  29/104] jobs/01_xtb/mult_1/random_d1.90_005_m1.inp
+[2026-04-17 12:14:14] [RUN  30/104] jobs/01_xtb/mult_1/random_d1.90_006_m1.inp
+[2026-04-17 12:14:14] [DONE 23/104] jobs/01_xtb/mult_1/random_d1.70_009_m1.inp
+[2026-04-17 12:14:14] [RUN  31/104] jobs/01_xtb/mult_1/random_d1.90_007_m1.inp
+[2026-04-17 12:14:15] [DONE 22/104] jobs/01_xtb/mult_1/random_d1.70_008_m1.inp
+[2026-04-17 12:14:15] [DONE 25/104] jobs/01_xtb/mult_1/random_d1.90_001_m1.inp
+[2026-04-17 12:14:16] [RUN  32/104] jobs/01_xtb/mult_1/random_d1.90_008_m1.inp
+[2026-04-17 12:14:16] [RUN  33/104] jobs/01_xtb/mult_1/random_d1.90_009_m1.inp
+[2026-04-17 12:14:16] [RUN  34/104] jobs/01_xtb/mult_1/random_d1.90_010_m1.inp
+[2026-04-17 12:14:16] [DONE 27/104] jobs/01_xtb/mult_1/random_d1.90_003_m1.inp
+[2026-04-17 12:14:18] [DONE 28/104] jobs/01_xtb/mult_1/random_d1.90_004_m1.inp
+[2026-04-17 12:14:18] [RUN  35/104] jobs/01_xtb/mult_1/random_d2.10_001_m1.inp
+[2026-04-17 12:14:18] [RUN  36/104] jobs/01_xtb/mult_1/random_d2.10_002_m1.inp
+[2026-04-17 12:14:19] [DONE 30/104] jobs/01_xtb/mult_1/random_d1.90_006_m1.inp
+[2026-04-17 12:14:19] [DONE 31/104] jobs/01_xtb/mult_1/random_d1.90_007_m1.inp
+[2026-04-17 12:14:19] [DONE 29/104] jobs/01_xtb/mult_1/random_d1.90_005_m1.inp
+[2026-04-17 12:14:20] [DONE 34/104] jobs/01_xtb/mult_1/random_d1.90_010_m1.inp
+[2026-04-17 12:14:20] [RUN  37/104] jobs/01_xtb/mult_1/random_d2.10_003_m1.inp
+[2026-04-17 12:14:20] [RUN  38/104] jobs/01_xtb/mult_1/random_d2.10_004_m1.inp
+[2026-04-17 12:14:20] [RUN  39/104] jobs/01_xtb/mult_1/random_d2.10_005_m1.inp
+[2026-04-17 12:14:20] [RUN  40/104] jobs/01_xtb/mult_1/random_d2.10_006_m1.inp
+[2026-04-17 12:14:20] [DONE 32/104] jobs/01_xtb/mult_1/random_d1.90_008_m1.inp
+[2026-04-17 12:14:21] [DONE 33/104] jobs/01_xtb/mult_1/random_d1.90_009_m1.inp
+[2026-04-17 12:14:22] [DONE 35/104] jobs/01_xtb/mult_1/random_d2.10_001_m1.inp
+[2026-04-17 12:14:22] [RUN  41/104] jobs/01_xtb/mult_1/random_d2.10_007_m1.inp
+[2026-04-17 12:14:22] [RUN  42/104] jobs/01_xtb/mult_1/random_d2.10_008_m1.inp
+[2026-04-17 12:14:22] [RUN  43/104] jobs/01_xtb/mult_1/random_d2.10_009_m1.inp
+[2026-04-17 12:14:23] [DONE 36/104] jobs/01_xtb/mult_1/random_d2.10_002_m1.inp
+[2026-04-17 12:14:24] [DONE 38/104] jobs/01_xtb/mult_1/random_d2.10_004_m1.inp
+[2026-04-17 12:14:24] [DONE 40/104] jobs/01_xtb/mult_1/random_d2.10_006_m1.inp
+[2026-04-17 12:14:24] [RUN  44/104] jobs/01_xtb/mult_1/random_d2.10_010_m1.inp
+[2026-04-17 12:14:24] [RUN  45/104] jobs/01_xtb/mult_1/ring12_d1.50_m1.inp
+[2026-04-17 12:14:24] [RUN  46/104] jobs/01_xtb/mult_1/ring12_d1.70_m1.inp
+[2026-04-17 12:14:25] [DONE 45/104] jobs/01_xtb/mult_1/ring12_d1.50_m1.inp
+[2026-04-17 12:14:25] [DONE 46/104] jobs/01_xtb/mult_1/ring12_d1.70_m1.inp
+[2026-04-17 12:14:25] [DONE 37/104] jobs/01_xtb/mult_1/random_d2.10_003_m1.inp
+[2026-04-17 12:14:25] [FAIL 43/104] jobs/01_xtb/mult_1/random_d2.10_009_m1.inp rc=0
+[2026-04-17 12:14:27] [RUN  47/104] jobs/01_xtb/mult_1/ring12_d1.90_m1.inp
+[2026-04-17 12:14:27] [RUN  48/104] jobs/01_xtb/mult_1/ring12_d2.10_m1.inp
+[2026-04-17 12:14:27] [RUN  49/104] jobs/01_xtb/mult_1/zigzag_chain12_d1.50_m1.inp
+[2026-04-17 12:14:27] [RUN  50/104] jobs/01_xtb/mult_1/zigzag_chain12_d1.70_m1.inp
+[2026-04-17 12:14:27] [DONE 48/104] jobs/01_xtb/mult_1/ring12_d2.10_m1.inp
+[2026-04-17 12:14:27] [DONE 47/104] jobs/01_xtb/mult_1/ring12_d1.90_m1.inp
+[2026-04-17 12:14:28] [FAIL 39/104] jobs/01_xtb/mult_1/random_d2.10_005_m1.inp rc=0
+[2026-04-17 12:14:28] [DONE 42/104] jobs/01_xtb/mult_1/random_d2.10_008_m1.inp
+[2026-04-17 12:14:28] [DONE 44/104] jobs/01_xtb/mult_1/random_d2.10_010_m1.inp
+[2026-04-17 12:14:29] [RUN  51/104] jobs/01_xtb/mult_1/zigzag_chain12_d1.90_m1.inp
+[2026-04-17 12:14:29] [RUN  52/104] jobs/01_xtb/mult_1/zigzag_chain12_d2.10_m1.inp
+[2026-04-17 12:14:29] [RUN  53/104] jobs/01_xtb/mult_3/double_ring_6_6_d1.50_m3.inp
+[2026-04-17 12:14:29] [RUN  54/104] jobs/01_xtb/mult_3/double_ring_6_6_d1.70_m3.inp
+[2026-04-17 12:14:29] [RUN  55/104] jobs/01_xtb/mult_3/double_ring_6_6_d1.90_m3.inp
+[2026-04-17 12:14:29] [DONE 41/104] jobs/01_xtb/mult_1/random_d2.10_007_m1.inp
+[2026-04-17 12:14:30] [DONE 54/104] jobs/01_xtb/mult_3/double_ring_6_6_d1.70_m3.inp
+[2026-04-17 12:14:30] [DONE 49/104] jobs/01_xtb/mult_1/zigzag_chain12_d1.50_m1.inp
+[2026-04-17 12:14:30] [DONE 53/104] jobs/01_xtb/mult_3/double_ring_6_6_d1.50_m3.inp
+[2026-04-17 12:14:30] [DONE 50/104] jobs/01_xtb/mult_1/zigzag_chain12_d1.70_m1.inp
+[2026-04-17 12:14:30] [DONE 55/104] jobs/01_xtb/mult_3/double_ring_6_6_d1.90_m3.inp
+[2026-04-17 12:14:31] [RUN  56/104] jobs/01_xtb/mult_3/double_ring_6_6_d2.10_m3.inp
+[2026-04-17 12:14:31] [RUN  57/104] jobs/01_xtb/mult_3/random_d1.50_001_m3.inp
+[2026-04-17 12:14:31] [RUN  58/104] jobs/01_xtb/mult_3/random_d1.50_002_m3.inp
+[2026-04-17 12:14:31] [RUN  59/104] jobs/01_xtb/mult_3/random_d1.50_003_m3.inp
+[2026-04-17 12:14:31] [RUN  60/104] jobs/01_xtb/mult_3/random_d1.50_004_m3.inp
+[2026-04-17 12:14:31] [RUN  61/104] jobs/01_xtb/mult_3/random_d1.50_005_m3.inp
+[2026-04-17 12:14:32] [DONE 51/104] jobs/01_xtb/mult_1/zigzag_chain12_d1.90_m1.inp
+[2026-04-17 12:14:32] [DONE 52/104] jobs/01_xtb/mult_1/zigzag_chain12_d2.10_m1.inp
+[2026-04-17 12:14:33] [RUN  62/104] jobs/01_xtb/mult_3/random_d1.50_006_m3.inp
+[2026-04-17 12:14:33] [RUN  63/104] jobs/01_xtb/mult_3/random_d1.50_007_m3.inp
+[2026-04-17 12:14:33] [DONE 56/104] jobs/01_xtb/mult_3/double_ring_6_6_d2.10_m3.inp
+[2026-04-17 12:14:35] [DONE 59/104] jobs/01_xtb/mult_3/random_d1.50_003_m3.inp
+[2026-04-17 12:14:35] [DONE 61/104] jobs/01_xtb/mult_3/random_d1.50_005_m3.inp
+[2026-04-17 12:14:35] [RUN  64/104] jobs/01_xtb/mult_3/random_d1.50_008_m3.inp
+[2026-04-17 12:14:35] [RUN  65/104] jobs/01_xtb/mult_3/random_d1.50_009_m3.inp
+[2026-04-17 12:14:35] [RUN  66/104] jobs/01_xtb/mult_3/random_d1.50_010_m3.inp
+[2026-04-17 12:14:35] [DONE 60/104] jobs/01_xtb/mult_3/random_d1.50_004_m3.inp
+[2026-04-17 12:14:35] [DONE 57/104] jobs/01_xtb/mult_3/random_d1.50_001_m3.inp
+[2026-04-17 12:14:35] [DONE 58/104] jobs/01_xtb/mult_3/random_d1.50_002_m3.inp
+[2026-04-17 12:14:37] [DONE 63/104] jobs/01_xtb/mult_3/random_d1.50_007_m3.inp
+[2026-04-17 12:14:37] [DONE 62/104] jobs/01_xtb/mult_3/random_d1.50_006_m3.inp
+[2026-04-17 12:14:37] [RUN  67/104] jobs/01_xtb/mult_3/random_d1.70_001_m3.inp
+[2026-04-17 12:14:37] [RUN  68/104] jobs/01_xtb/mult_3/random_d1.70_002_m3.inp
+[2026-04-17 12:14:37] [RUN  69/104] jobs/01_xtb/mult_3/random_d1.70_003_m3.inp
+[2026-04-17 12:14:37] [RUN  70/104] jobs/01_xtb/mult_3/random_d1.70_004_m3.inp
+[2026-04-17 12:14:37] [RUN  71/104] jobs/01_xtb/mult_3/random_d1.70_005_m3.inp
+[2026-04-17 12:14:38] [DONE 66/104] jobs/01_xtb/mult_3/random_d1.50_010_m3.inp
+[2026-04-17 12:14:38] [DONE 65/104] jobs/01_xtb/mult_3/random_d1.50_009_m3.inp
+[2026-04-17 12:14:39] [DONE 64/104] jobs/01_xtb/mult_3/random_d1.50_008_m3.inp
+[2026-04-17 12:14:39] [RUN  72/104] jobs/01_xtb/mult_3/random_d1.70_006_m3.inp
+[2026-04-17 12:14:39] [RUN  73/104] jobs/01_xtb/mult_3/random_d1.70_007_m3.inp
+[2026-04-17 12:14:39] [RUN  74/104] jobs/01_xtb/mult_3/random_d1.70_008_m3.inp
+[2026-04-17 12:14:41] [DONE 69/104] jobs/01_xtb/mult_3/random_d1.70_003_m3.inp
+[2026-04-17 12:14:41] [DONE 70/104] jobs/01_xtb/mult_3/random_d1.70_004_m3.inp
+[2026-04-17 12:14:41] [RUN  75/104] jobs/01_xtb/mult_3/random_d1.70_009_m3.inp
+[2026-04-17 12:14:41] [RUN  76/104] jobs/01_xtb/mult_3/random_d1.70_010_m3.inp
+[2026-04-17 12:14:41] [DONE 68/104] jobs/01_xtb/mult_3/random_d1.70_002_m3.inp
+[2026-04-17 12:14:41] [DONE 67/104] jobs/01_xtb/mult_3/random_d1.70_001_m3.inp
+[2026-04-17 12:14:42] [DONE 71/104] jobs/01_xtb/mult_3/random_d1.70_005_m3.inp
+[2026-04-17 12:14:43] [DONE 73/104] jobs/01_xtb/mult_3/random_d1.70_007_m3.inp
+[2026-04-17 12:14:43] [RUN  77/104] jobs/01_xtb/mult_3/random_d1.90_001_m3.inp
+[2026-04-17 12:14:43] [RUN  78/104] jobs/01_xtb/mult_3/random_d1.90_002_m3.inp
+[2026-04-17 12:14:43] [RUN  79/104] jobs/01_xtb/mult_3/random_d1.90_003_m3.inp
+[2026-04-17 12:14:43] [RUN  80/104] jobs/01_xtb/mult_3/random_d1.90_004_m3.inp
+[2026-04-17 12:14:43] [DONE 72/104] jobs/01_xtb/mult_3/random_d1.70_006_m3.inp
+[2026-04-17 12:14:44] [DONE 74/104] jobs/01_xtb/mult_3/random_d1.70_008_m3.inp
+[2026-04-17 12:14:45] [DONE 76/104] jobs/01_xtb/mult_3/random_d1.70_010_m3.inp
+[2026-04-17 12:14:45] [RUN  81/104] jobs/01_xtb/mult_3/random_d1.90_005_m3.inp
+[2026-04-17 12:14:45] [RUN  82/104] jobs/01_xtb/mult_3/random_d1.90_006_m3.inp
+[2026-04-17 12:14:45] [RUN  83/104] jobs/01_xtb/mult_3/random_d1.90_007_m3.inp
+[2026-04-17 12:14:45] [DONE 75/104] jobs/01_xtb/mult_3/random_d1.70_009_m3.inp
+[2026-04-17 12:14:47] [DONE 80/104] jobs/01_xtb/mult_3/random_d1.90_004_m3.inp
+[2026-04-17 12:14:47] [RUN  84/104] jobs/01_xtb/mult_3/random_d1.90_008_m3.inp
+[2026-04-17 12:14:47] [RUN  85/104] jobs/01_xtb/mult_3/random_d1.90_009_m3.inp
+[2026-04-17 12:14:47] [DONE 78/104] jobs/01_xtb/mult_3/random_d1.90_002_m3.inp
+[2026-04-17 12:14:47] [DONE 79/104] jobs/01_xtb/mult_3/random_d1.90_003_m3.inp
+[2026-04-17 12:14:48] [DONE 77/104] jobs/01_xtb/mult_3/random_d1.90_001_m3.inp
+[2026-04-17 12:14:49] [RUN  86/104] jobs/01_xtb/mult_3/random_d1.90_010_m3.inp
+[2026-04-17 12:14:49] [RUN  87/104] jobs/01_xtb/mult_3/random_d2.10_001_m3.inp
+[2026-04-17 12:14:49] [RUN  88/104] jobs/01_xtb/mult_3/random_d2.10_002_m3.inp
+[2026-04-17 12:14:50] [DONE 83/104] jobs/01_xtb/mult_3/random_d1.90_007_m3.inp
+[2026-04-17 12:14:50] [DONE 82/104] jobs/01_xtb/mult_3/random_d1.90_006_m3.inp
+[2026-04-17 12:14:50] [DONE 81/104] jobs/01_xtb/mult_3/random_d1.90_005_m3.inp
+[2026-04-17 12:14:51] [RUN  89/104] jobs/01_xtb/mult_3/random_d2.10_003_m3.inp
+[2026-04-17 12:14:51] [RUN  90/104] jobs/01_xtb/mult_3/random_d2.10_004_m3.inp
+[2026-04-17 12:14:51] [RUN  91/104] jobs/01_xtb/mult_3/random_d2.10_005_m3.inp
+[2026-04-17 12:14:51] [DONE 84/104] jobs/01_xtb/mult_3/random_d1.90_008_m3.inp
+[2026-04-17 12:14:52] [DONE 85/104] jobs/01_xtb/mult_3/random_d1.90_009_m3.inp
+[2026-04-17 12:14:53] [DONE 86/104] jobs/01_xtb/mult_3/random_d1.90_010_m3.inp
+[2026-04-17 12:14:53] [DONE 87/104] jobs/01_xtb/mult_3/random_d2.10_001_m3.inp
+[2026-04-17 12:14:53] [RUN  92/104] jobs/01_xtb/mult_3/random_d2.10_006_m3.inp
+[2026-04-17 12:14:53] [RUN  93/104] jobs/01_xtb/mult_3/random_d2.10_007_m3.inp
+[2026-04-17 12:14:53] [RUN  94/104] jobs/01_xtb/mult_3/random_d2.10_008_m3.inp
+[2026-04-17 12:14:53] [RUN  95/104] jobs/01_xtb/mult_3/random_d2.10_009_m3.inp
+[2026-04-17 12:14:54] [DONE 88/104] jobs/01_xtb/mult_3/random_d2.10_002_m3.inp
+[2026-04-17 12:14:55] [DONE 90/104] jobs/01_xtb/mult_3/random_d2.10_004_m3.inp
+[2026-04-17 12:14:55] [RUN  96/104] jobs/01_xtb/mult_3/random_d2.10_010_m3.inp
+[2026-04-17 12:14:55] [RUN  97/104] jobs/01_xtb/mult_3/ring12_d1.50_m3.inp
+[2026-04-17 12:14:56] [DONE 97/104] jobs/01_xtb/mult_3/ring12_d1.50_m3.inp
+[2026-04-17 12:14:56] [DONE 89/104] jobs/01_xtb/mult_3/random_d2.10_003_m3.inp
+[2026-04-17 12:14:56] [FAIL 95/104] jobs/01_xtb/mult_3/random_d2.10_009_m3.inp rc=0
+[2026-04-17 12:14:57] [DONE 92/104] jobs/01_xtb/mult_3/random_d2.10_006_m3.inp
+[2026-04-17 12:14:57] [RUN  98/104] jobs/01_xtb/mult_3/ring12_d1.70_m3.inp
+[2026-04-17 12:14:57] [RUN  99/104] jobs/01_xtb/mult_3/ring12_d1.90_m3.inp
+[2026-04-17 12:14:57] [RUN  100/104] jobs/01_xtb/mult_3/ring12_d2.10_m3.inp
+[2026-04-17 12:14:57] [RUN  101/104] jobs/01_xtb/mult_3/zigzag_chain12_d1.50_m3.inp
+[2026-04-17 12:14:58] [DONE 94/104] jobs/01_xtb/mult_3/random_d2.10_008_m3.inp
+[2026-04-17 12:14:58] [DONE 98/104] jobs/01_xtb/mult_3/ring12_d1.70_m3.inp
+[2026-04-17 12:14:58] [DONE 99/104] jobs/01_xtb/mult_3/ring12_d1.90_m3.inp
+[2026-04-17 12:14:58] [DONE 100/104] jobs/01_xtb/mult_3/ring12_d2.10_m3.inp
+[2026-04-17 12:14:58] [DONE 91/104] jobs/01_xtb/mult_3/random_d2.10_005_m3.inp
+[2026-04-17 12:14:59] [DONE 96/104] jobs/01_xtb/mult_3/random_d2.10_010_m3.inp
+[2026-04-17 12:14:59] [RUN  102/104] jobs/01_xtb/mult_3/zigzag_chain12_d1.70_m3.inp
+[2026-04-17 12:14:59] [RUN  103/104] jobs/01_xtb/mult_3/zigzag_chain12_d1.90_m3.inp
+[2026-04-17 12:14:59] [RUN  104/104] jobs/01_xtb/mult_3/zigzag_chain12_d2.10_m3.inp
+[2026-04-17 12:15:00] [DONE 101/104] jobs/01_xtb/mult_3/zigzag_chain12_d1.50_m3.inp
+[2026-04-17 12:15:00] [DONE 93/104] jobs/01_xtb/mult_3/random_d2.10_007_m3.inp
+[2026-04-17 12:15:03] [DONE 102/104] jobs/01_xtb/mult_3/zigzag_chain12_d1.70_m3.inp
+[2026-04-17 12:15:03] [DONE 104/104] jobs/01_xtb/mult_3/zigzag_chain12_d2.10_m3.inp
+[2026-04-17 12:15:04] [DONE 103/104] jobs/01_xtb/mult_3/zigzag_chain12_d1.90_m3.inp
+[2026-04-17 12:15:04] FINISH jobs_dir=jobs/01_xtb fail=0
+[2026-04-17 12:22:28] START jobs_dir=jobs/01_xtb total=104 parallel=8
+[2026-04-17 12:22:28] [SKIP 1/104] jobs/01_xtb/mult_1/double_ring_6_6_d1.50_m1.inp
+[2026-04-17 12:22:28] [SKIP 2/104] jobs/01_xtb/mult_1/double_ring_6_6_d1.70_m1.inp
+[2026-04-17 12:22:28] [SKIP 3/104] jobs/01_xtb/mult_1/double_ring_6_6_d1.90_m1.inp
+[2026-04-17 12:22:28] [SKIP 4/104] jobs/01_xtb/mult_1/double_ring_6_6_d2.10_m1.inp
+[2026-04-17 12:22:28] [SKIP 5/104] jobs/01_xtb/mult_1/random_d1.50_001_m1.inp
+[2026-04-17 12:22:28] [SKIP 6/104] jobs/01_xtb/mult_1/random_d1.50_002_m1.inp
+[2026-04-17 12:22:28] [SKIP 7/104] jobs/01_xtb/mult_1/random_d1.50_003_m1.inp
+[2026-04-17 12:22:28] [SKIP 8/104] jobs/01_xtb/mult_1/random_d1.50_004_m1.inp
+[2026-04-17 12:22:28] [SKIP 9/104] jobs/01_xtb/mult_1/random_d1.50_005_m1.inp
+[2026-04-17 12:22:28] [SKIP 10/104] jobs/01_xtb/mult_1/random_d1.50_006_m1.inp
+[2026-04-17 12:22:28] [SKIP 11/104] jobs/01_xtb/mult_1/random_d1.50_007_m1.inp
+[2026-04-17 12:22:28] [SKIP 12/104] jobs/01_xtb/mult_1/random_d1.50_008_m1.inp
+[2026-04-17 12:22:28] [SKIP 13/104] jobs/01_xtb/mult_1/random_d1.50_009_m1.inp
+[2026-04-17 12:22:28] [SKIP 14/104] jobs/01_xtb/mult_1/random_d1.50_010_m1.inp
+[2026-04-17 12:22:28] [SKIP 15/104] jobs/01_xtb/mult_1/random_d1.70_001_m1.inp
+[2026-04-17 12:22:28] [SKIP 16/104] jobs/01_xtb/mult_1/random_d1.70_002_m1.inp
+[2026-04-17 12:22:28] [SKIP 17/104] jobs/01_xtb/mult_1/random_d1.70_003_m1.inp
+[2026-04-17 12:22:28] [SKIP 18/104] jobs/01_xtb/mult_1/random_d1.70_004_m1.inp
+[2026-04-17 12:22:28] [SKIP 19/104] jobs/01_xtb/mult_1/random_d1.70_005_m1.inp
+[2026-04-17 12:22:28] [SKIP 20/104] jobs/01_xtb/mult_1/random_d1.70_006_m1.inp
+[2026-04-17 12:22:28] [SKIP 21/104] jobs/01_xtb/mult_1/random_d1.70_007_m1.inp
+[2026-04-17 12:22:28] [SKIP 22/104] jobs/01_xtb/mult_1/random_d1.70_008_m1.inp
+[2026-04-17 12:22:28] [SKIP 24/104] jobs/01_xtb/mult_1/random_d1.70_010_m1.inp
+[2026-04-17 12:22:28] [SKIP 23/104] jobs/01_xtb/mult_1/random_d1.70_009_m1.inp
+[2026-04-17 12:22:28] [SKIP 25/104] jobs/01_xtb/mult_1/random_d1.90_001_m1.inp
+[2026-04-17 12:22:28] [SKIP 26/104] jobs/01_xtb/mult_1/random_d1.90_002_m1.inp
+[2026-04-17 12:22:28] [SKIP 27/104] jobs/01_xtb/mult_1/random_d1.90_003_m1.inp
+[2026-04-17 12:22:28] [SKIP 28/104] jobs/01_xtb/mult_1/random_d1.90_004_m1.inp
+[2026-04-17 12:22:28] [SKIP 29/104] jobs/01_xtb/mult_1/random_d1.90_005_m1.inp
+[2026-04-17 12:22:28] [SKIP 30/104] jobs/01_xtb/mult_1/random_d1.90_006_m1.inp
+[2026-04-17 12:22:28] [SKIP 31/104] jobs/01_xtb/mult_1/random_d1.90_007_m1.inp
+[2026-04-17 12:22:28] [SKIP 32/104] jobs/01_xtb/mult_1/random_d1.90_008_m1.inp
+[2026-04-17 12:22:28] [SKIP 33/104] jobs/01_xtb/mult_1/random_d1.90_009_m1.inp
+[2026-04-17 12:22:28] [SKIP 34/104] jobs/01_xtb/mult_1/random_d1.90_010_m1.inp
+[2026-04-17 12:22:28] [SKIP 35/104] jobs/01_xtb/mult_1/random_d2.10_001_m1.inp
+[2026-04-17 12:22:28] [SKIP 36/104] jobs/01_xtb/mult_1/random_d2.10_002_m1.inp
+[2026-04-17 12:22:28] [SKIP 37/104] jobs/01_xtb/mult_1/random_d2.10_003_m1.inp
+[2026-04-17 12:22:28] [SKIP 38/104] jobs/01_xtb/mult_1/random_d2.10_004_m1.inp
+[2026-04-17 12:22:28] [RUN  39/104] jobs/01_xtb/mult_1/random_d2.10_005_m1.inp
+[2026-04-17 12:22:28] [SKIP 40/104] jobs/01_xtb/mult_1/random_d2.10_006_m1.inp
+[2026-04-17 12:22:28] [SKIP 42/104] jobs/01_xtb/mult_1/random_d2.10_008_m1.inp
+[2026-04-17 12:22:28] [SKIP 41/104] jobs/01_xtb/mult_1/random_d2.10_007_m1.inp
+[2026-04-17 12:22:28] [RUN  43/104] jobs/01_xtb/mult_1/random_d2.10_009_m1.inp
+[2026-04-17 12:22:28] [SKIP 44/104] jobs/01_xtb/mult_1/random_d2.10_010_m1.inp
+[2026-04-17 12:22:28] [SKIP 45/104] jobs/01_xtb/mult_1/ring12_d1.50_m1.inp
+[2026-04-17 12:22:28] [SKIP 46/104] jobs/01_xtb/mult_1/ring12_d1.70_m1.inp
+[2026-04-17 12:22:28] [SKIP 47/104] jobs/01_xtb/mult_1/ring12_d1.90_m1.inp
+[2026-04-17 12:22:28] [SKIP 48/104] jobs/01_xtb/mult_1/ring12_d2.10_m1.inp
+[2026-04-17 12:22:28] [SKIP 49/104] jobs/01_xtb/mult_1/zigzag_chain12_d1.50_m1.inp
+[2026-04-17 12:22:28] [SKIP 50/104] jobs/01_xtb/mult_1/zigzag_chain12_d1.70_m1.inp
+[2026-04-17 12:22:28] [SKIP 51/104] jobs/01_xtb/mult_1/zigzag_chain12_d1.90_m1.inp
+[2026-04-17 12:22:28] [SKIP 52/104] jobs/01_xtb/mult_1/zigzag_chain12_d2.10_m1.inp
+[2026-04-17 12:22:28] [SKIP 53/104] jobs/01_xtb/mult_3/double_ring_6_6_d1.50_m3.inp
+[2026-04-17 12:22:28] [SKIP 54/104] jobs/01_xtb/mult_3/double_ring_6_6_d1.70_m3.inp
+[2026-04-17 12:22:28] [SKIP 55/104] jobs/01_xtb/mult_3/double_ring_6_6_d1.90_m3.inp
+[2026-04-17 12:22:28] [SKIP 56/104] jobs/01_xtb/mult_3/double_ring_6_6_d2.10_m3.inp
+[2026-04-17 12:22:28] [SKIP 57/104] jobs/01_xtb/mult_3/random_d1.50_001_m3.inp
+[2026-04-17 12:22:28] [SKIP 58/104] jobs/01_xtb/mult_3/random_d1.50_002_m3.inp
+[2026-04-17 12:22:28] [SKIP 59/104] jobs/01_xtb/mult_3/random_d1.50_003_m3.inp
+[2026-04-17 12:22:28] [SKIP 60/104] jobs/01_xtb/mult_3/random_d1.50_004_m3.inp
+[2026-04-17 12:22:28] [SKIP 61/104] jobs/01_xtb/mult_3/random_d1.50_005_m3.inp
+[2026-04-17 12:22:28] [SKIP 62/104] jobs/01_xtb/mult_3/random_d1.50_006_m3.inp
+[2026-04-17 12:22:28] [SKIP 63/104] jobs/01_xtb/mult_3/random_d1.50_007_m3.inp
+[2026-04-17 12:22:28] [SKIP 64/104] jobs/01_xtb/mult_3/random_d1.50_008_m3.inp
+[2026-04-17 12:22:28] [SKIP 65/104] jobs/01_xtb/mult_3/random_d1.50_009_m3.inp
+[2026-04-17 12:22:28] [SKIP 66/104] jobs/01_xtb/mult_3/random_d1.50_010_m3.inp
+[2026-04-17 12:22:28] [SKIP 67/104] jobs/01_xtb/mult_3/random_d1.70_001_m3.inp
+[2026-04-17 12:22:28] [SKIP 68/104] jobs/01_xtb/mult_3/random_d1.70_002_m3.inp
+[2026-04-17 12:22:28] [SKIP 69/104] jobs/01_xtb/mult_3/random_d1.70_003_m3.inp
+[2026-04-17 12:22:28] [SKIP 70/104] jobs/01_xtb/mult_3/random_d1.70_004_m3.inp
+[2026-04-17 12:22:28] [SKIP 71/104] jobs/01_xtb/mult_3/random_d1.70_005_m3.inp
+[2026-04-17 12:22:28] [SKIP 72/104] jobs/01_xtb/mult_3/random_d1.70_006_m3.inp
+[2026-04-17 12:22:28] [SKIP 73/104] jobs/01_xtb/mult_3/random_d1.70_007_m3.inp
+[2026-04-17 12:22:28] [SKIP 74/104] jobs/01_xtb/mult_3/random_d1.70_008_m3.inp
+[2026-04-17 12:22:28] [SKIP 75/104] jobs/01_xtb/mult_3/random_d1.70_009_m3.inp
+[2026-04-17 12:22:28] [SKIP 76/104] jobs/01_xtb/mult_3/random_d1.70_010_m3.inp
+[2026-04-17 12:22:28] [SKIP 77/104] jobs/01_xtb/mult_3/random_d1.90_001_m3.inp
+[2026-04-17 12:22:28] [SKIP 78/104] jobs/01_xtb/mult_3/random_d1.90_002_m3.inp
+[2026-04-17 12:22:28] [SKIP 79/104] jobs/01_xtb/mult_3/random_d1.90_003_m3.inp
+[2026-04-17 12:22:28] [SKIP 80/104] jobs/01_xtb/mult_3/random_d1.90_004_m3.inp
+[2026-04-17 12:22:28] [SKIP 81/104] jobs/01_xtb/mult_3/random_d1.90_005_m3.inp
+[2026-04-17 12:22:28] [SKIP 82/104] jobs/01_xtb/mult_3/random_d1.90_006_m3.inp
+[2026-04-17 12:22:28] [SKIP 83/104] jobs/01_xtb/mult_3/random_d1.90_007_m3.inp
+[2026-04-17 12:22:28] [SKIP 84/104] jobs/01_xtb/mult_3/random_d1.90_008_m3.inp
+[2026-04-17 12:22:28] [SKIP 85/104] jobs/01_xtb/mult_3/random_d1.90_009_m3.inp
+[2026-04-17 12:22:28] [SKIP 86/104] jobs/01_xtb/mult_3/random_d1.90_010_m3.inp
+[2026-04-17 12:22:28] [SKIP 87/104] jobs/01_xtb/mult_3/random_d2.10_001_m3.inp
+[2026-04-17 12:22:28] [SKIP 88/104] jobs/01_xtb/mult_3/random_d2.10_002_m3.inp
+[2026-04-17 12:22:28] [SKIP 89/104] jobs/01_xtb/mult_3/random_d2.10_003_m3.inp
+[2026-04-17 12:22:28] [SKIP 90/104] jobs/01_xtb/mult_3/random_d2.10_004_m3.inp
+[2026-04-17 12:22:28] [SKIP 91/104] jobs/01_xtb/mult_3/random_d2.10_005_m3.inp
+[2026-04-17 12:22:28] [SKIP 92/104] jobs/01_xtb/mult_3/random_d2.10_006_m3.inp
+[2026-04-17 12:22:28] [RUN  95/104] jobs/01_xtb/mult_3/random_d2.10_009_m3.inp
+[2026-04-17 12:22:28] [SKIP 94/104] jobs/01_xtb/mult_3/random_d2.10_008_m3.inp
+[2026-04-17 12:22:28] [SKIP 93/104] jobs/01_xtb/mult_3/random_d2.10_007_m3.inp
+[2026-04-17 12:22:28] [SKIP 96/104] jobs/01_xtb/mult_3/random_d2.10_010_m3.inp
+[2026-04-17 12:22:28] [SKIP 97/104] jobs/01_xtb/mult_3/ring12_d1.50_m3.inp
+[2026-04-17 12:22:28] [SKIP 98/104] jobs/01_xtb/mult_3/ring12_d1.70_m3.inp
+[2026-04-17 12:22:28] [SKIP 99/104] jobs/01_xtb/mult_3/ring12_d1.90_m3.inp
+[2026-04-17 12:22:28] [SKIP 100/104] jobs/01_xtb/mult_3/ring12_d2.10_m3.inp
+[2026-04-17 12:22:28] [SKIP 101/104] jobs/01_xtb/mult_3/zigzag_chain12_d1.50_m3.inp
+[2026-04-17 12:22:28] [SKIP 102/104] jobs/01_xtb/mult_3/zigzag_chain12_d1.70_m3.inp
+[2026-04-17 12:22:28] [SKIP 103/104] jobs/01_xtb/mult_3/zigzag_chain12_d1.90_m3.inp
+[2026-04-17 12:22:28] [SKIP 104/104] jobs/01_xtb/mult_3/zigzag_chain12_d2.10_m3.inp
+[2026-04-17 12:22:31] [FAIL 43/104] jobs/01_xtb/mult_1/random_d2.10_009_m1.inp rc=0
+[2026-04-17 12:22:31] [FAIL 95/104] jobs/01_xtb/mult_3/random_d2.10_009_m3.inp rc=0
+[2026-04-17 12:22:36] [FAIL 39/104] jobs/01_xtb/mult_1/random_d2.10_005_m1.inp rc=0
+[2026-04-17 12:22:36] FINISH jobs_dir=jobs/01_xtb fail=0

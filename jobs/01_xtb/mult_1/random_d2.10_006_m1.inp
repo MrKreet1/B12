@@ -1,0 +1,9 @@
+! GFN2-xTB TightSCF TightOpt
+
+%pal
+  nprocs 1
+end
+
+%maxcore 500
+
+* xyzfile 0 1 ../../../starts/random_d2.10_006.xyz

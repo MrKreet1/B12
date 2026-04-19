@@ -1,0 +1,4 @@
+rank,job_name,mult,energy_hartree,xyz_path
+1,double_ring_6_6_d1.90_m1_r2scan,1,-297.805239027148,results/02_r2scan_xyz/double_ring_6_6_d1.90_m1_r2scan.xyz
+2,ring12_d1.70_m1_r2scan,1,-297.564484568076,results/02_r2scan_xyz/ring12_d1.70_m1_r2scan.xyz
+3,zigzag_chain12_d1.50_m3_r2scan,3,-297.45168248411,results/02_r2scan_xyz/zigzag_chain12_d1.50_m3_r2scan.xyz

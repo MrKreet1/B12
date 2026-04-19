@@ -1,0 +1,9 @@
+! r2SCAN-3c TightSCF NumFreq
+
+%pal
+  nprocs 8
+end
+
+%maxcore 2000
+
+* xyzfile 0 1 ../../results/02_r2scan_xyz/ring12_d1.70_m1_r2scan.xyz

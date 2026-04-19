@@ -1,0 +1,5 @@
+[2026-04-17 15:52:21] START jobs_dir=jobs/03_numfreq total=3 parallel=1
+[2026-04-17 15:52:21] [SKIP 1/3] jobs/03_numfreq/double_ring_6_6_d1.90_m1_r2scan_numfreq.inp
+[2026-04-17 15:52:23] [SKIP 2/3] jobs/03_numfreq/ring12_d1.70_m1_r2scan_numfreq.inp
+[2026-04-17 15:52:25] [SKIP 3/3] jobs/03_numfreq/zigzag_chain12_d1.50_m3_r2scan_numfreq.inp
+[2026-04-17 15:52:25] FINISH jobs_dir=jobs/03_numfreq fail=0

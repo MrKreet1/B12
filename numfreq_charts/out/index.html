@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NumFreq charts</title>
+  <style>
+    :root {
+      --bg: #f5f5f4;
+      --panel: #fffdfa;
+      --text: #18181b;
+      --muted: #52525b;
+      --line: #d6d3d1;
+      --accent: #0f766e;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(15, 118, 110, 0.12), transparent 23%),
+        radial-gradient(circle at top right, rgba(185, 28, 28, 0.08), transparent 26%),
+        var(--bg);
+    }
+    main {
+      max-width: 1380px;
+      margin: 0 auto;
+      padding: 28px 18px 40px;
+    }
+    h1 {
+      margin: 0 0 10px;
+      font-size: 32px;
+    }
+    p {
+      margin: 0 0 16px;
+      color: var(--muted);
+      max-width: 900px;
+      line-height: 1.6;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 12px 28px rgba(0,0,0,0.05);
+      margin-bottom: 20px;
+    }
+    th, td {
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      font-size: 14px;
+    }
+    th {
+      background: #fafaf9;
+    }
+    .grid {
+      display: grid;
+      gap: 18px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 16px;
+      box-shadow: 0 12px 32px rgba(0,0,0,0.06);
+    }
+    .card h2 {
+      margin: 0 0 8px;
+      font-size: 21px;
+    }
+    .card p {
+      margin-bottom: 10px;
+    }
+    .card a {
+      color: var(--accent);
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 12px;
+      border: 1px solid var(--line);
+      margin-top: 12px;
+      background: white;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>NumFreq mode charts</h1>
+    <p>
+      These charts are built from the current ORCA <code>NumFreq</code> outputs in <code>jobs/03_numfreq</code>.
+      Imaginary modes are emphasized explicitly, so unstable structures are easy to spot.
+    </p>
+    <table>
+      <thead>
+        <tr>
+          <th>Structure</th>
+          <th>Status</th>
+          <th>Modes</th>
+          <th>Imaginary</th>
+          <th>Min freq (cm^-1)</th>
+        </tr>
+      </thead>
+      <tbody><tr><td>Double ring 6+6 (M=1)</td><td><span style='color:#0F766E;font-weight:700'>OK_NO_IMAG</span></td><td>36</td><td>0</td><td>0.00</td></tr><tr><td>Ring12 (M=1)</td><td><span style='color:#0F766E;font-weight:700'>OK_NO_IMAG</span></td><td>36</td><td>0</td><td>0.00</td></tr><tr><td>Zigzag chain12 (M=3)</td><td><span style='color:#B91C1C;font-weight:700'>REJECT_IMAG</span></td><td>36</td><td>6</td><td>-2022.99</td></tr></tbody>
+    </table>
+    <section class="grid"><section class='card'><h2>Frequencies by mode number</h2><p>Overlay of all parsed modes across the final NumFreq structures.</p><a href='01_mode_number_overlay.png' target='_blank' rel='noopener'>Open image</a><img src='01_mode_number_overlay.png' alt='Frequencies by mode number'></section><section class='card'><h2>Per-structure mode comparison</h2><p>Each structure in a separate panel, with real, zero, and imaginary modes separated visually.</p><a href='02_structure_mode_panels.png' target='_blank' rel='noopener'>Open image</a><img src='02_structure_mode_panels.png' alt='Per-structure mode comparison'></section><section class='card'><h2>Stick spectra</h2><p>Frequency-stick spectra with the negative-frequency region highlighted.</p><a href='03_frequency_spectra.png' target='_blank' rel='noopener'>Open image</a><img src='03_frequency_spectra.png' alt='Stick spectra'></section><section class='card'><h2>Mode heatmap</h2><p>Compact comparison of every mode across all final structures.</p><a href='04_mode_heatmap.png' target='_blank' rel='noopener'>Open image</a><img src='04_mode_heatmap.png' alt='Mode heatmap'></section></section>
+  </main>
+</body>
+</html>
