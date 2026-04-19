@@ -5,6 +5,7 @@ import re
 import warnings
 
 import matplotlib
+import numpy as np
 
 matplotlib.use("Agg")
 
@@ -320,6 +321,292 @@ def build_status_heatmap(xtb_all: pd.DataFrame) -> None:
     finish_figure(fig, "06_xtb_status_heatmap.png")
 
 
+def build_diploma_funnel(
+    planned_xtb_count: int,
+    xtb_all: pd.DataFrame,
+    xtb_unique: pd.DataFrame,
+    final_numfreq: pd.DataFrame,
+    final_good: pd.DataFrame,
+) -> None:
+    steps = [
+        ("Постановки xTB", planned_xtb_count),
+        ("Сошедшиеся xTB-минимумы", int(xtb_all["opt_converged"].sum())),
+        ("Уникальные xTB-кандидаты", len(xtb_unique)),
+        ("DFT-структуры", len(final_numfreq)),
+        ("Без мнимых частот", len(final_good)),
+    ]
+    colors = ["#1D4ED8", "#0F766E", "#B45309", "#2563EB", "#0F766E"]
+
+    fig, ax = plt.subplots(figsize=(11.5, 7.2))
+    max_count = max(count for _, count in steps)
+    y_positions = np.arange(len(steps))
+
+    for idx, ((label, count), color) in enumerate(zip(steps, colors)):
+        ax.barh(
+            y=idx,
+            width=count,
+            left=-count / 2,
+            height=0.82,
+            color=color,
+            edgecolor="white",
+            linewidth=1.2,
+        )
+        pct = count / max_count * 100.0
+        ax.text(
+            0,
+            idx,
+            f"{label}\n{count} ({pct:.1f}%)",
+            ha="center",
+            va="center",
+            fontsize=12,
+            color="white" if idx != 2 else "black",
+            fontweight="bold",
+        )
+
+    ax.set_title("Воронка расчетного конвейера")
+    ax.set_yticks([])
+    ax.set_xticks([])
+    ax.set_xlabel("")
+    ax.set_ylabel("")
+    ax.set_xlim(-max_count * 0.6, max_count * 0.6)
+    ax.invert_yaxis()
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+    finish_figure(fig, "07_diploma_funnel.png")
+
+
+def build_xtb_energy_distribution(xtb_all: pd.DataFrame) -> None:
+    plot_df = xtb_all[xtb_all["opt_converged"]].copy()
+    plot_df = plot_df.sort_values(["motif_label", "rel_energy_kj_mol"])
+
+    fig, ax = plt.subplots(figsize=(12.5, 6.8))
+    sns.violinplot(
+        data=plot_df,
+        x="motif_label",
+        y="rel_energy_kj_mol",
+        order=["Double ring 6+6", "Ring12", "Zigzag chain12", "Random"],
+        palette=MOTIF_COLORS,
+        cut=0,
+        inner=None,
+        linewidth=1.0,
+        ax=ax,
+    )
+    sns.stripplot(
+        data=plot_df,
+        x="motif_label",
+        y="rel_energy_kj_mol",
+        order=["Double ring 6+6", "Ring12", "Zigzag chain12", "Random"],
+        hue="mult_label",
+        palette={"M=1": "#111827", "M=3": "#f8fafc"},
+        dodge=False,
+        size=8,
+        linewidth=0.8,
+        edgecolor="#111827",
+        ax=ax,
+    )
+    ax.set_title("Распределение относительных xTB-энергий\nдля сошедшихся расчетов")
+    ax.set_xlabel("Стартовый мотив")
+    ax.set_ylabel("ΔE xTB (кДж/моль)")
+    ax.grid(True, axis="y", linestyle="--", alpha=0.25)
+    ax.grid(False, axis="x")
+    if ax.legend_:
+        handles, labels = ax.get_legend_handles_labels()
+        dedup: dict[str, object] = {}
+        for handle, label in zip(handles, labels):
+            if label not in dedup:
+                dedup[label] = handle
+        ax.legend(
+            dedup.values(),
+            dedup.keys(),
+            title="Мультиплетность",
+            frameon=True,
+            loc="upper left",
+        )
+    finish_figure(fig, "08_xtb_energy_distribution.png")
+
+
+def build_final_dft_bar(final_numfreq: pd.DataFrame) -> None:
+    plot_df = final_numfreq.sort_values("numfreq_energy_hartree").copy()
+    fig, ax = plt.subplots(figsize=(11.8, 6.2))
+    sns.barplot(
+        data=plot_df,
+        x="display_name",
+        y="rel_energy_kj_mol",
+        hue="status",
+        palette=FINAL_STATUS_COLORS,
+        dodge=False,
+        ax=ax,
+    )
+    ax.set_title("Относительные энергии финальных DFT-структур")
+    ax.set_xlabel("Структура")
+    ax.set_ylabel("ΔE (кДж/моль)")
+    ax.tick_params(axis="x", rotation=18)
+    ymax = max(float(plot_df["rel_energy_kj_mol"].max()), 1.0)
+    ax.set_ylim(0, ymax * 1.14 + 10)
+    annotate_visible_bars(ax)
+    if ax.legend_:
+        ax.legend(title="Итоговый статус", frameon=True)
+    finish_figure(fig, "09_final_dft_relative_energy.png")
+
+
+def build_min_frequency_bar(final_numfreq: pd.DataFrame) -> None:
+    plot_df = final_numfreq.sort_values("numfreq_energy_hartree").copy()
+    fig, ax = plt.subplots(figsize=(11.8, 6.3))
+    sns.barplot(
+        data=plot_df,
+        x="display_name",
+        y="min_freq_cm1",
+        hue="status",
+        palette=FINAL_STATUS_COLORS,
+        dodge=False,
+        ax=ax,
+    )
+    ax.axhline(0.0, linestyle="--", color="#0F766E", linewidth=1.3)
+    ax.axhline(-20.0, linestyle=":", color="#B91C1C", linewidth=1.3)
+    ax.set_title("Минимальная частота финальных кандидатов")
+    ax.set_xlabel("Структура")
+    ax.set_ylabel("Минимальная частота (см$^{-1}$)")
+    ax.tick_params(axis="x", rotation=18)
+    ymin = min(float(plot_df["min_freq_cm1"].min()), -40.0)
+    ax.set_ylim(ymin * 1.08, 60)
+    for patch in ax.patches:
+        height = patch.get_height()
+        if pd.isna(height):
+            continue
+        ax.annotate(
+            f"{float(height):.2f}",
+            (patch.get_x() + patch.get_width() / 2, height),
+            ha="center",
+            va="bottom" if height >= 0 else "top",
+            fontsize=10,
+            xytext=(0, 5 if height >= 0 else -8),
+            textcoords="offset points",
+        )
+    if ax.legend_:
+        ax.legend(title="Итоговый статус", frameon=True)
+    finish_figure(fig, "10_final_min_frequency.png")
+
+
+def build_start_distance_heatmap(xtb_all: pd.DataFrame) -> None:
+    grouped = (
+        xtb_all.groupby(["motif_label", "seed_distance_ang"])
+        .agg(total=("job_name", "size"), converged=("opt_converged", "sum"))
+        .reset_index()
+    )
+    grouped["success_rate_pct"] = grouped["converged"] / grouped["total"] * 100.0
+    grouped["annot"] = grouped.apply(
+        lambda row: f"{int(row['converged'])}/{int(row['total'])}",
+        axis=1,
+    )
+    heat_values = grouped.pivot(index="motif_label", columns="seed_distance_ang", values="success_rate_pct").reindex(
+        index=["Double ring 6+6", "Ring12", "Zigzag chain12", "Random"],
+        columns=[1.5, 1.7, 1.9, 2.1],
+    )
+    heat_annot = grouped.pivot(index="motif_label", columns="seed_distance_ang", values="annot").reindex(
+        index=["Double ring 6+6", "Ring12", "Zigzag chain12", "Random"],
+        columns=[1.5, 1.7, 1.9, 2.1],
+    )
+
+    fig, ax = plt.subplots(figsize=(10.4, 6.2))
+    sns.heatmap(
+        heat_values,
+        annot=heat_annot,
+        fmt="",
+        cmap="YlGnBu",
+        vmin=0,
+        vmax=100,
+        linewidths=0.5,
+        cbar_kws={"label": "Доля сошедшихся xTB-расчетов (%)"},
+        ax=ax,
+    )
+    ax.set_title("Тип старта × стартовое расстояние × xTB-сходимость")
+    ax.set_xlabel("Стартовое расстояние (Å)")
+    ax.set_ylabel("Стартовый мотив")
+    finish_figure(fig, "11_start_distance_heatmap.png")
+
+
+def load_xyz(path: Path) -> np.ndarray:
+    lines = path.read_text(encoding="utf-8", errors="replace").splitlines()
+    atom_count = int(lines[0].strip())
+    coords: list[list[float]] = []
+    for line in lines[2 : 2 + atom_count]:
+        parts = line.split()
+        if len(parts) >= 4:
+            coords.append([float(parts[1]), float(parts[2]), float(parts[3])])
+    return np.asarray(coords, dtype=float)
+
+
+def project_to_plane(coords: np.ndarray) -> np.ndarray:
+    centered = coords - coords.mean(axis=0, keepdims=True)
+    _, _, vh = np.linalg.svd(centered, full_matrices=False)
+    return centered @ vh[:2].T
+
+
+def bond_pairs(coords: np.ndarray, cutoff: float = 1.95) -> list[tuple[int, int]]:
+    pairs: list[tuple[int, int]] = []
+    for i in range(len(coords)):
+        for j in range(i + 1, len(coords)):
+            dist = float(np.linalg.norm(coords[i] - coords[j]))
+            if dist <= cutoff:
+                pairs.append((i, j))
+    return pairs
+
+
+def build_structure_triptych(final_numfreq: pd.DataFrame) -> None:
+    plot_df = final_numfreq.sort_values("numfreq_energy_hartree").copy()
+    fig, axes = plt.subplots(1, len(plot_df), figsize=(15.2, 5.8))
+    if len(plot_df) == 1:
+        axes = [axes]
+
+    for ax, (_, row) in zip(axes, plot_df.iterrows()):
+        xyz_path = ROOT / str(row["xyz_path"])
+        coords_3d = load_xyz(xyz_path)
+        coords_2d = project_to_plane(coords_3d)
+        motif_color = MOTIF_COLORS.get(str(row["motif_label"]), "#374151")
+
+        for i, j in bond_pairs(coords_3d):
+            ax.plot(
+                [coords_2d[i, 0], coords_2d[j, 0]],
+                [coords_2d[i, 1], coords_2d[j, 1]],
+                color="#94A3B8",
+                linewidth=1.8,
+                zorder=1,
+            )
+
+        ax.scatter(
+            coords_2d[:, 0],
+            coords_2d[:, 1],
+            s=180,
+            color=motif_color,
+            edgecolor="white",
+            linewidth=1.2,
+            zorder=2,
+        )
+
+        ax.set_title(str(row["display_name"]), fontsize=11)
+        ax.text(
+            0.5,
+            -0.12,
+            (
+                f"M = {int(row['mult'])}\n"
+                f"ΔE = {float(row['rel_energy_kj_mol']):.2f} кДж/моль\n"
+                f"Статус = {row['status']}"
+            ),
+            ha="center",
+            va="top",
+            transform=ax.transAxes,
+            fontsize=10,
+        )
+        ax.set_aspect("equal")
+        ax.set_xticks([])
+        ax.set_yticks([])
+        for spine in ax.spines.values():
+            spine.set_visible(False)
+
+    fig.suptitle("Три финальные геометрии B12 после r2SCAN-3c-оптимизации", y=1.02, fontsize=18)
+    finish_figure(fig, "12_final_structure_triptych.png")
+
+
 def build_index(seed_count: int, planned_xtb_count: int, final_good_count: int) -> None:
     cards = [
         ("01_xtb_landscape.png", "xTB Landscape", "All screened xTB structures split by multiplicity and seed distance."),
@@ -328,6 +615,12 @@ def build_index(seed_count: int, planned_xtb_count: int, final_good_count: int) 
         ("04_final_dft_numfreq.png", "Final Ranking", "Final relative energies after DFT + NumFreq."),
         ("05_frequency_diagnostics.png", "Frequency Diagnostics", "Minimum frequency versus relative energy for final structures."),
         ("06_xtb_status_heatmap.png", "xTB Status Heatmap", "How each motif family behaved during xTB screening."),
+        ("07_diploma_funnel.png", "Diploma Funnel", "The key funnel for the thesis: from xTB jobs to validated minima."),
+        ("08_xtb_energy_distribution.png", "xTB Energy Distribution", "Energy spread across all converged xTB calculations."),
+        ("09_final_dft_relative_energy.png", "Final DFT Relative Energies", "A simple bar chart of the final DFT candidates."),
+        ("10_final_min_frequency.png", "Final Minimum Frequencies", "Minimum vibrational frequency for each final candidate."),
+        ("11_start_distance_heatmap.png", "Start Distance Heatmap", "Which motifs and seed distances most often converged at the xTB stage."),
+        ("12_final_structure_triptych.png", "Final Geometry Triptych", "Side-by-side view of the three final B12 geometries."),
     ]
     metrics_html = "".join(
         [
@@ -495,6 +788,12 @@ def main() -> None:
     build_final_dft(final_numfreq)
     build_frequency_diagnostics(final_numfreq)
     build_status_heatmap(xtb_all)
+    build_diploma_funnel(planned_xtb_count, xtb_all, xtb_unique, final_numfreq, final_good)
+    build_xtb_energy_distribution(xtb_all)
+    build_final_dft_bar(final_numfreq)
+    build_min_frequency_bar(final_numfreq)
+    build_start_distance_heatmap(xtb_all)
+    build_structure_triptych(final_numfreq)
     build_index(seed_count, planned_xtb_count, len(final_good))
 
     generated_files = sorted(path.name for path in OUT_DIR.glob("*"))
